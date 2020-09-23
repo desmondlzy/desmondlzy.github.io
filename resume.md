@@ -2,7 +2,7 @@
 layout: resume
 ---
 
-A PDF version of my resume is [here][my-resume].
+A PDF version of my resume is [*here*][my-resume].
 
 ## Education
 
