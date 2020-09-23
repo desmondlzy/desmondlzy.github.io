@@ -11,12 +11,18 @@ BSc. in Computer Science
 ## Selected Awards & Scholarships
 
 `2020`
-Professor Charles K. Kao Research Exchange Scholarship, Fac. of Engineering
+Professor Charles K. Kao Research Exchange Scholarship
 
-`2018-19,19-20`
+`2018-19`
 Outstanding Academic Performance Scholarship, Dept. of CSE.
 
-`2017-18,18-19`
+`2019-20`
+Outstanding Academic Performance Scholarship, Dept. of CSE.
+
+`2017-18`
+ELITE Stream Scholarship, Fac. of Engineering 
+
+`2018-19`
 ELITE Stream Scholarship, Fac. of Engineering 
 
 `2018,19,20`
@@ -44,9 +50,15 @@ Analyzing Motions and Stiffness of the Multi-Joint Assemblies
 
 ### Side Projects
 
-[TimeWalk][timewalk-core]: Get your coding metrics! [VSCode plugin][timewalk-vscode] available!
+[TimeWalk][timewalk-core]: A Cross-platform Coding Metrics Tracker2020
+- Track coding metrics with respect to different languages and text editors.
+- The core, written in Python, is designed to be extensible for customized metrics with a plugin system. 
+- Visual Studio Code plugin available on VS marketplace and IntelliJ plugin in progress. 
+- Open-source at [GitHub][timewalk-core]
 
-[Slurmmy][slurmmy-github]: Automated slurm jobs submission. [blog post][slurmmy-intro-en]
+[Slurmmy][slurmmy-github]: Automated slurm jobs submission. 
+- Automatically submit jobs to a slurm system.
+- A flexible commandline interface and templates for `sbatch` scripts.
 
 Spaghettify: Drastically *decrease* the readability of your Python code. (Ongoing)
 
@@ -55,22 +67,21 @@ Spaghettify: Drastically *decrease* the readability of your Python code. (Ongoin
 ### Framework
 
 - Machine Learning (PyTorch, Tensorflow, scikit-learn)
-- Desktop/Mobile Framework (Electron, Flutter, Vue)
+- Web/Desktop/Mobile Framework (Vue, Electron, React Native Flutter, Vue)
 - Cloud Service (AWS)
-- Unity Engine
 
 ### Programming Languages
 
-- Proficient in C (OS, NCURSES, MPI, CUDA C, SIMD, OpenMP, lex&yacc)
+- Proficient in C, C++
 - Proficient in Python (TF/Torch, Web Spider, PyQt, Image&Wavelet)
-- Familiar with Go, JavaScript, TypeScript, Dart, Java, C++, C#, Smalltalk, Prolog, Perl, Clojure
+- Familiar with Go, Java, JavaScript, TypeScript, Clojure, HTML/CSS, Dart, R
 
 <!-- A list is also available [online](https://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
 
 
-<!-- ### Footer
+### Footer
 
-Last updated: May 2013 -->
+Last updated: May 2013
 
 
 -----
@@ -79,7 +90,7 @@ Last updated: May 2013 -->
 [michael-web]: http://www.cse.cuhk.edu.hk/~lyu
 [cse-web]: http://www.cse.cuhk.edu.hk
 [cuhk-web]: http://www.cuhk.edu.hk
-[my-resume]: ./assets/files/resume_web.pdf
+[my-resume]: ./assets/files/cv.pdf
 [timewalk-core]: https://github.com/desmondlzy/timewalk-core
 [timewalk-vscode]: https://github.com/desmondlzy/timewalk-vscode
 [slurmmy-github]: https://github.com/desmondlzy/slurmmy

@@ -3,7 +3,7 @@ layout: page
 excerpt: "About Me..."
 ---
 
-I am an undergraduate student in [Department of Computer Science and Engineering][cse-web], [the Chinese University of Hong Kong][cuhk-web]. I am expected to finish my BSc. in Computer Science in 2021.
+I am an undergraduate student in [Department of Computer Science and Engineering][cse-web], [the Chinese University of Hong Kong][cuhk-web]. I am expected to finish my BSc. in Computer Science in 2021. Check my [resume][my-resume] for more information.
 
 ### Research Experience
 
@@ -31,7 +31,7 @@ Despite heavy school work, I always try to spare some time working on my persona
 [xuhao-web]: http://www.cse.cuhk.edu.hk/~haoxu
 [anand-web]: https://www.ece.rutgers.edu/~asarwate/
 [philip-web]: http://www.cse.cuhk.edu.hk/~cwfu
-[my-resume]: ./assets/files/resume_web.pdf
+[my-resume]: ./assets/files/cv.pdf
 [timewalk-core]: https://github.com/desmondlzy/timewalk-core
 [timewalk-vscode]: https://github.com/desmondlzy/timewalk-vscode
 [slurmmy-github]: https://github.com/desmondlzy/slurmmy
