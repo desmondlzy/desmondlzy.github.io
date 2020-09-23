@@ -81,12 +81,10 @@ Spaghettify: Drastically *decrease* the readability of your Python code. (Ongoin
 <!-- A list is also available [online](https://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
 
 
-### Footer
-
-Last updated: May 2013
 
 
 -----
+Last updated: Sept. 23, 2020
 
 [sid-web]: http://staff.ie.cuhk.edu.hk/~sjaggi/
 [michael-web]: http://www.cse.cuhk.edu.hk/~lyu
