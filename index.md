@@ -16,7 +16,7 @@ We focused on that using a computationally inexpensive classifier such as SVM on
 
 Right now, I am working with [Prof. Fu Chi Wing][philip-web] and his PhD student [Xu Hao][xuhao-web], on a project in the field of computational design.
 
-## Side Projects
+### Side Projects
 
 Despite heavy school work, I always try to spare some time working on my personal projects, trying out interesting thoughts and ideas. Click on those links for details and star them on GitHub if you find them interesting.
 

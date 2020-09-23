@@ -34,7 +34,6 @@ You can check out the [GitHub repo][slurmmy-repo] for more details and please gi
 - `ssh` to linux6-19
 - Get ready the jobs you want to run. Write (Generate) the shell commands for them into a text file, say `my-tasks.txt`. Each command takes a single line
 - Clone [`slurmmy`][slurmmy-repo] if you haven't done so. Then invoke `slurmmy/dispatcher.py` with the arguments as per your need. Use `nohup` when appropriate.
-    - `nohup python slurmmy/dispatcher.py my-tasks.txt --slurm-args="-c 10 --gres=gpu:1 -p gpu_24h" &`
 
 Ah, time for &#128554;
 
