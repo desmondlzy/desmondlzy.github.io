@@ -31,3 +31,11 @@
   font-weight: 400;
   src: local('PT Serif Italic'), local('PTSerif-Italic'), url(https://fonts.gstatic.com/s/ptserif/v7/03aPdn7fFF3H6ngCgAlQzPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(https://fonts.gstatic.com/s/ptserif/v7/03aPdn7fFF3H6ngCgAlQzBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
 }
+@font-face {
+  font-family: 'Source Code Pro', monospace;
+  src: local('Source Code Pro'), url(https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap);
+}
+@font-face {
+  font-family: 'Source Sans Pro', sans-serif;
+  src: local('Source Sans Pro'), url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap);
+}
