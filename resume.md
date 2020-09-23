@@ -2,7 +2,7 @@
 layout: resume
 ---
 
-A PDF version of my resume is [*here*][my-resume].
+A PDF version of my resume is *[here][my-resume]*.
 
 ## Education
 
@@ -10,7 +10,7 @@ A PDF version of my resume is [*here*][my-resume].
 __The Chinese University of Hong Kong__
 BSc. in Computer Science
 
-## Selected Awards & Scholarships
+## Selected Awards & Honors
 
 `2020`
 Professor Charles K. Kao Research Exchange Scholarship
