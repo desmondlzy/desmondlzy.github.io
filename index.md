@@ -11,7 +11,7 @@ Starting from my first year in CUHK, I have been working on different research t
 
 In the summer of 2019, I, together with my partner Yuxiao Qu, did an NLP research project, advised by [Prof. Michael Lyu][michael-web]. We tried to devise a black-box method to attack state-of-the-art text classification models. In the end of that summer, our project was awarded *Best Project* by the faculty.
 
-In my third year of study, I received Professor Charles Kao Scholarship and worked with Professor Anand Sarwate at Rutgers University.
+In my third year of study, I received Professor Charles Kao Scholarship and worked with [Prof. Anand Sarwate][anand-web] at Rutgers University.
 We focused on that using a computationally inexpensive classifier such as SVM on data in an intermediate layer to do binary classification, and therefore save the computation.
 
 Right now, I am working with [Prof. Fu Chi Wing][philip-web] and his PhD student [Xu Hao][xuhao-web], on a project in the field of computational design.
