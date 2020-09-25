@@ -5,14 +5,14 @@ excerpt: "About Me..."
 
 I am an undergraduate student in [Department of Computer Science and Engineering][cse-web], [the Chinese University of Hong Kong][cuhk-web]. I am expected to finish my BSc. in Computer Science in 2021. Check my [resume][my-resume] for more information.
 
-### Research Experience
+### Research Projects
 
-Starting from my first year in CUHK, I have been working on different research topics.
+My research interest falls in the intersection of computer graphics and machine learning.
 
-In the summer of 2019, I, together with my partner Yuxiao Qu, did an NLP research project, advised by [Prof. Michael Lyu][michael-web]. We tried to devise a black-box method to attack state-of-the-art text classification models. In the end of that summer, our project was awarded *Best Project* by the faculty.
+In the summer of 2019, I, together with my partner Yuxiao Qu, worked on an NLP project, advised by [Prof. Michael Lyu][michael-web]. We tried to devise a black-box method to attack state-of-the-art text classification models. Our project was awarded *Best Project* by the faculty out of 40+ projects.
 
 In my third year of study, I received Professor Charles Kao Scholarship and worked with [Prof. Anand Sarwate][anand-web] at Rutgers University.
-We focused on that using a computationally inexpensive classifier such as SVM on data in an intermediate layer to do binary classification, and therefore save the computation.
+We focused on using a computationally inexpensive classifier such as SVM on an intermediate layer to do binary classification, and save the computation in the rest part of the neural nets. The project has promising application.
 
 Right now, I am working with [Prof. Fu Chi Wing][philip-web] and his PhD student [Xu Hao][xuhao-web], on a project in the field of computational design.
 

@@ -62,8 +62,6 @@ Analyzing Motions and Stiffness of the Multi-Joint Assemblies
 - Automatically submit jobs to a slurm system.
 - A flexible commandline interface and templates for `sbatch` scripts.
 
-Spaghettify: Drastically *decrease* the readability of your Python code. (Ongoing)
-
 ## Professional Skills
 
 ### Framework
@@ -79,8 +77,6 @@ Spaghettify: Drastically *decrease* the readability of your Python code. (Ongoin
 - Familiar with Go, Java, JavaScript, TypeScript, Clojure, HTML/CSS, Dart, R
 
 <!-- A list is also available [online](https://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-
 
 
 -----
