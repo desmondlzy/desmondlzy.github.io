@@ -12,13 +12,13 @@ My research interest falls in the intersection of computer graphics and machine 
 In the summer of 2019, I, together with my partner Yuxiao Qu, worked on an NLP project, advised by [Prof. Michael Lyu][michael-web]. We tried to devise a black-box method to attack state-of-the-art text classification models. Our project was awarded *Best Project* by the faculty out of 40+ projects.
 
 In my third year of study, I received Professor Charles Kao Scholarship and worked with [Prof. Anand Sarwate][anand-web] at Rutgers University.
-We focused on using a computationally inexpensive classifier such as SVM on an intermediate layer to do binary classification, and save the computation in the rest part of the neural nets. The project has promising application.
+We focused on using a computationally inexpensive classifier such as SVM on an intermediate layer of a deep neural network. By binary classification, the SVM can decide to stop furthur computation in the rest of layers and hence save the computation. We believe the project has great potentials in the mobile/wearable devices.
 
-Right now, I am working with [Prof. Fu Chi Wing][philip-web] and his PhD student [Xu Hao][xuhao-web], on a project in the field of computational design.
+Right now, I am working with [Prof. Fu Chi Wing][philip-web] and his PhD student [Xu Hao][xuhao-web], on a project in the field of computational design. We are studying a new way to analyze the stress over an object.
 
 ### Side Projects
 
-Despite heavy school work, I always try to spare some time working on my personal projects, trying out interesting thoughts and ideas. Click on those links for details and star them on GitHub if you find them interesting.
+I have been always tried to spare some time working on my personal projects, trying out interesting thoughts and ideas. Click on those links for details and star them on GitHub if you find them interesting.
 
 - [TimeWalk][timewalk-core]: Get your coding metrics! [VSCode plugin][timewalk-vscode] available!
 - [Slurmmy][slurmmy-github]: Automated slurm jobs submission. [blog post][slurmmy-intro-en]
