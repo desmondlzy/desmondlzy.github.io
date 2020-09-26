@@ -42,7 +42,7 @@ Generating Adversarial Examples in Text Classification
 
 `2020.06 - Present`
 Slicing neural networks using SVM
-- Advisor: Prof. Anand Sarwate, Rutgers Univeristy
+- Advisor: Prof. Anand Sarwate, Rutgers University
 - Use SVM in the middle of gigantic neural nets to save computation and network communication cost under remote settings.
 
 `2020.07 - Present`
@@ -52,7 +52,7 @@ Analyzing Motions and Stiffness of the Multi-Joint Assemblies
 
 ### Side Projects
 
-[TimeWalk][timewalk-core]: A Cross-platform Coding Metrics Tracker2020
+[TimeWalk][timewalk-core]: A Cross-platform Coding Metrics Tracker
 - Track coding metrics with respect to different languages and text editors.
 - The core, written in Python, is designed to be extensible for customized metrics with a plugin system. 
 - Visual Studio Code plugin available on VS marketplace and IntelliJ plugin in progress. 
