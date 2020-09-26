@@ -35,7 +35,7 @@ Dean's List, Fac. of Engineering
 ### Research Projects
 
 `2019.06 - 2019.09`
-Generating Adversarial Examples
+Generating Adversarial Examples in Text Classification
 - Advisor: Prof. Michael Lyu, CUHK
 - Faculty 2019 Summer Research *Best Project Award*
 - Attack state-of-the-art text classifiers (mainly neural nets) via white-box and black-box methods.

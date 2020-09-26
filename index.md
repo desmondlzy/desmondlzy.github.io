@@ -7,7 +7,7 @@ I am an undergraduate student in [Department of Computer Science and Engineering
 
 ### Research Projects
 
-My research interest falls in the intersection of computer graphics and machine learning.
+My research interest lies in the intersection of computer graphics and machine learning.
 
 In the summer of 2019, I, together with my partner Yuxiao Qu, worked on an NLP project, advised by [Prof. Michael Lyu][michael-web]. We tried to devise a black-box method to attack state-of-the-art text classification models. Our project was awarded *Best Project* by the faculty out of 40+ projects.
 
