@@ -48,7 +48,7 @@ Slicing neural networks using SVM
 `2020.07 - Present`
 Analyzing Motions and Stiffness of the Multi-Joint Assemblies
 - Advisor: Prof. Fu Chi Wing, CUHK
-- Predict motions of complex assembled stuctures and optimize their stablity.
+- Predict motions of complex assembled structures and optimize their stability.
 
 ### Side Projects
 
