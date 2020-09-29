@@ -60,21 +60,21 @@ Analyzing Motions and Stiffness of the Multi-Joint Assemblies
 
 [Slurmmy][slurmmy-github]: Automated slurm jobs submission. 
 - Automatically submit jobs to a slurm system.
-- A flexible commandline interface and templates for `sbatch` scripts.
+- A flexible commandline interface and templates for sbatch.
 
 ## Professional Skills
 
-### Framework
-
-- Machine Learning (PyTorch, Tensorflow, scikit-learn)
-- Web/Desktop/Mobile Framework (Vue, Electron, React Native Flutter, Vue)
-- Cloud Service (AWS)
-
 ### Programming Languages
 
-- Proficient in C, C++
-- Proficient in Python (TF/Torch, Web Spider, PyQt, Image&Wavelet)
+- Proficient in C/C++
+- Proficient in Python (TensorFlow/PyTorch, Web Spider, PyQt, Image, Wavelet)
 - Familiar with Go, Java, JavaScript, TypeScript, Clojure, HTML/CSS, Dart, R
+
+### Frameworks
+
+- Machine Learning (PyTorch, Tensorflow, scikit-learn)
+- Web/Desktop/Mobile Framework (Vue, Electron, React Native, Flutter)
+- Cloud Service (AWS)
 
 <!-- A list is also available [online](https://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
 

@@ -9,10 +9,10 @@ I am an undergraduate student in [Department of Computer Science and Engineering
 
 My research interest lies in the intersection of computer graphics and machine learning.
 
-In the summer of 2019, I, together with my partner Yuxiao Qu, worked on an NLP project, advised by [Prof. Michael Lyu][michael-web]. We tried to devise a black-box method to attack state-of-the-art text classification models. Our project was awarded *Best Project* by the faculty out of 40+ projects.
+In the summer of 2019, I, with Yuxiao Qu, worked on an NLP project, under the supervision of [Prof. Michael Lyu][michael-web]. We tried to devise a black-box method to attack state-of-the-art text classification models. Our project was awarded *Best Project* by the faculty out of 40+ projects.
 
 In my third year of study, I received Professor Charles Kao Scholarship and worked with [Prof. Anand Sarwate][anand-web] at Rutgers University.
-We focused on using a computationally inexpensive classifier such as SVM on an intermediate layer of a deep neural network. By binary classification, the SVM can decide to stop furthur computation in the rest of layers and hence save the computation. We believe the project has great potentials in the mobile/wearable devices.
+We focused on using a computationally inexpensive classifier such as SVM on an intermediate layer of a deep neural network. By binary classification, the SVM can decide to stop furthur computation in the rest of layers and hence save the computation. We believe the project has great potentials in the computing on mobile/wearable devices.
 
 Right now, I am working with [Prof. Fu Chi Wing][philip-web] and his PhD student [Xu Hao][xuhao-web], on a project in the field of computational design. We are studying a new way to analyze the stress over an object.
 
