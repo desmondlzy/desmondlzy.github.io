@@ -86,7 +86,7 @@ Last updated: Sept. 23, 2020
 [michael-web]: http://www.cse.cuhk.edu.hk/~lyu
 [cse-web]: http://www.cse.cuhk.edu.hk
 [cuhk-web]: http://www.cuhk.edu.hk
-[my-resume]: ./assets/files/cv.pdf
+[my-resume]: {{ site.baseurl }}/assets/files/cv.pdf
 [timewalk-core]: https://github.com/desmondlzy/timewalk-core
 [timewalk-vscode]: https://github.com/desmondlzy/timewalk-vscode
 [slurmmy-github]: https://github.com/desmondlzy/slurmmy
