@@ -9,7 +9,7 @@ I am an undergraduate student in [Department of Computer Science and Engineering
 
 My research interest lies in the intersection of computer graphics and machine learning.
 
-In the summer of 2019, I, with Yuxiao Qu, worked on an NLP project, under the supervision of [Prof. Michael Lyu][michael-web]. We tried to devise a black-box method to attack state-of-the-art text classification models. Our project was awarded *Best Project* by the faculty out of 40+ projects.
+In the summer of 2019, I, with [Yuxiao Qu][qyx-web], worked on an NLP project, under the supervision of [Prof. Michael Lyu][michael-web]. We tried to devise a black-box method to attack state-of-the-art text classification models. Our project was awarded *Best Project* by the faculty out of 40+ projects.
 
 In my third year of study, I received Professor Charles Kao Scholarship and worked with [Prof. Anand Sarwate][anand-web] at Rutgers University.
 We focused on using a computationally inexpensive classifier such as SVM on an intermediate layer of a deep neural network. By binary classification, the SVM can decide to stop furthur computation in the rest of layers and hence save the computation. We believe the project has great potentials in the computing on mobile/wearable devices.
@@ -31,6 +31,7 @@ I have been always tried to spare some time working on my personal projects, try
 [xuhao-web]: http://www.cse.cuhk.edu.hk/~haoxu
 [anand-web]: https://www.ece.rutgers.edu/~asarwate/
 [philip-web]: http://www.cse.cuhk.edu.hk/~cwfu
+[qyx-web]: https://cohenqu.github.io
 [my-resume]: ./assets/files/cv.pdf
 [timewalk-core]: https://github.com/desmondlzy/timewalk-core
 [timewalk-vscode]: https://github.com/desmondlzy/timewalk-vscode
