@@ -20,10 +20,10 @@ Right now, I am working with [Prof. Fu Chi Wing][philip-web] and his PhD student
 
 ### Side Projects
 
-I like to on personal projects on the side, for the maximized freedom I have to 'hack' 
+I like to work on personal projects on the side, for the maximized freedom there I have to 'hack' 
 (~~break things without getting burned~~; 
 ~~write no documentation~~; have great fun when they land). 
-Check them out through the links and please consider to give a star if you find one of them interesting.
+Check them out through the links and please consider to give a star if you find any one of them interesting.
 
 - [TimeWalk][timewalk-core]: Get your coding metrics! An extensible coding statistics tracking engine. [VSCode plugin][timewalk-vscode] available!
 - [Slurmmy][slurmmy-github]: Scripts that automate slurm jobs submission, easing the process of training machine learning models. [blog post][slurmmy-intro-en]
