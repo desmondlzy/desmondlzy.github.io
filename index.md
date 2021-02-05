@@ -3,7 +3,9 @@ layout: page
 excerpt: "About Me..."
 ---
 
-I am an undergraduate student in [Department of Computer Science and Engineering][cse-web] at [the Chinese University of Hong Kong][cuhk-web]. I am expected to finish my BSc. in Computer Science in June 2021. Check my [resume][my-resume] for more information. I am also with Tencent as a backend engineer intern, starting January 2021.
+I am an undergrad in [Department of Computer Science and Engineering][cse-web] at [the Chinese University of Hong Kong][cuhk-web]. I am expected to finish my BSc. in Computer Science in June 2021. Check my [resume][my-resume] for more information. 
+I am also with Tencent as a backend engineer intern, starting January 2021.
+
 ### Research Projects
 
 My research interest lies in the intersection of computer graphics and machine learning.
@@ -11,17 +13,20 @@ My research interest lies in the intersection of computer graphics and machine l
 In the summer of 2019, I, with [Yuxiao Qu][qyx-web], worked on an NLP project, under the supervision of [Prof. Michael Lyu][michael-web]. We tried to devise a black-box method to attack state-of-the-art text classification models. Our project was awarded *Best Project* by the faculty out of 40+ projects.
 
 In my third year of study, I received Professor Charles Kao Scholarship and worked with [Prof. Anand Sarwate][anand-web] at Rutgers University.
-We focused on using a computationally efficient classifier, such as SVM, on an intermediate layer of a deep neural network. By binary classification, the SVM can decide to stop further computation in the rest part of the network, and hence save the computation. We believe the project has great potentials in mobile computing and on-device machine learning.
+
+We aimed to use a computationally efficient classifier such as SVM or LR to save the computation cost of a given deep neural network. The idea is to "cut", or more precisely, apply the classifier on a intermediate layer of the neural net at inference time. The efficient classifier performs binary classification for early stopping of the inference process. The neural net stops the forward pass if the binary classifier gives a very confident prediction, and hence, save the computation.
 
 Right now, I am working with [Prof. Fu Chi Wing][philip-web] and his PhD student [Xu Hao][xuhao-web], on a project in the field of computational design. We are studying a new way to analyze the stress over an object, and optimization of structure rigidity of assembly structures.
 
 ### Side Projects
 
-I have been always tried to spare some time working on my personal projects, trying out interesting thoughts and ideas. Click on those links for details and star them on GitHub if you find them interesting.
+I like to on personal projects on the side, for the maximized freedom I have to 'hack' 
+(~~break things without getting burned~~; 
+~~write no documentation~~; have great fun when they land). 
+Check them out through the links and please consider to give a star if you find one of them interesting.
 
-- [TimeWalk][timewalk-core]: Get your coding metrics! [VSCode plugin][timewalk-vscode] available!
-- [Slurmmy][slurmmy-github]: Automated slurm jobs submission. [blog post][slurmmy-intro-en]
-- Spaghettify: Drastically *decrease* the readability of your Python code. (Ongoing)
+- [TimeWalk][timewalk-core]: Get your coding metrics! An extensible coding statistics tracking engine. [VSCode plugin][timewalk-vscode] available!
+- [Slurmmy][slurmmy-github]: Scripts that automate slurm jobs submission, easing the process of training machine learning models. [blog post][slurmmy-intro-en]
 
 [sid-web]: http://staff.ie.cuhk.edu.hk/~sjaggi/
 [michael-web]: http://www.cse.cuhk.edu.hk/~lyu
