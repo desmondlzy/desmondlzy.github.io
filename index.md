@@ -12,10 +12,10 @@ My research interest lies in the intersection of computer graphics and machine l
 
 ![eigenvalues][eigenvalues]
 
-Right now, I am working with [Prof. Fu Chi Wing][philip-web] and his PhD student [Xu Hao][xuhao-web], on a project in the field of computational design. We are studying a new way to analyze the stress over an object, and optimization of structure rigidity of assembly structures.
+Currently, I am working with [Prof. Fu Chi Wing][philip-web] and his PhD student [Xu Hao][xuhao-web], on a project in the field of computational design. We are studying a new way to analyze the stress over an object, and optimization of structure rigidity of assembly structures.
 
 In my third year of study, I received Professor Charles Kao Scholarship and worked with [Prof. Anand Sarwate][anand-web] at Rutgers University.
-We aimed to use a computationally efficient classifier such as SVM or LR to save the computation cost of a given deep neural network. The idea is to "cut", or more precisely, apply the classifier on a intermediate layer of the neural net at inference time. The efficient classifier performs binary classification for early stopping of the inference process. The neural net stops the forward pass if the binary classifier gives a very confident prediction, and hence, save the computation.
+We aimed to use a computationally efficient classifier such as SVM or logistic regression to save the computation cost of a given deep neural network. The idea is to "cut", or more precisely, apply the classifier on a intermediate layer of the neural net at inference time. The efficient classifier performs binary classification for early stopping of the inference process. The neural net stops the forward pass if the binary classifier gives a very confident prediction, and hence, save the computation.
 
 In the summer of 2019, I, with [Yuxiao Qu][qyx-web], worked on an NLP project, under the supervision of [Prof. Michael Lyu][michael-web]. We tried to devise a black-box method to attack state-of-the-art text classification models. Our project was awarded *Best Project* by the faculty out of 40+ projects.
 
@@ -25,8 +25,8 @@ In the summer of 2019, I, with [Yuxiao Qu][qyx-web], worked on an NLP project, u
 
 I like to work on personal projects on the side, for the maximized freedom there I have to 'hack' 
 (~~break things without getting burned~~; 
-~~write no documentation~~; have great fun when they land). 
-Check them out through the links and please consider to give a star if you find any one of them interesting.
+~~write no documentation~~; ~~use no Java~~). 
+Check them out through the links and please consider to give a star on GitHub if you find any one of them interesting.
 
 - [TimeWalk][timewalk-core]: Get your coding metrics! An extensible coding statistics tracking engine. [VSCode plugin][timewalk-vscode] available!
 - [Slurmmy][slurmmy-github]: Scripts that automate slurm jobs submission, easing the process of training machine learning models. [blog post][slurmmy-intro-en]
