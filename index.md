@@ -42,4 +42,4 @@ Check them out through the links and please consider to give a star if you find 
 [timewalk-vscode]: https://github.com/desmondlzy/timewalk-vscode
 [slurmmy-github]: https://github.com/desmondlzy/slurmmy
 [slurmmy-intro-en]: {{ site.baseurl }}/blog/slurmmy-intro-en
-[slurmmy-svg]: {{ site.baseurl }}/assets/images/prism.jpg
+[prism]: {{ site.baseurl }}/assets/images/prism.jpg
