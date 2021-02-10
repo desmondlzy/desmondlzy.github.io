@@ -41,6 +41,6 @@ modified: 7/11/2020, 21:00:24
 - 使用[template]来获得邮件提醒等有趣功能
 
 [slurmmy-repo]: https://github.com/desmondlzy/slurmmy
-[slurmmy-svg]: {{ site.baseurl }}/assets/images/slurmmy-svg.png
+[slurmmy-svg]: {{ site.baseurl }}/assets/images/slurmmy-flow.png
 [slurmmy-intro-en]: {{ site.baseurl }}/slurmmy-intro-en
 [template]: https://github.com/desmondlzy#template
