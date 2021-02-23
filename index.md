@@ -19,7 +19,6 @@ We aimed to use a computationally efficient classifier such as SVM or logistic r
 
 In the summer of 2019, I, with [Yuxiao Qu][qyx-web], worked on an NLP project, under the supervision of [Prof. Michael Lyu][michael-web]. We tried to devise a black-box method to attack state-of-the-art text classification models. Our project was awarded *Best Project* by the faculty out of 40+ projects.
 
-![prism][prism]
 {% include _image-cap.html url="/assets/images/prism.jpg" description="A tribute to Pink Floyd: Sampling color into the dark side of the moon" %}
 
 ### Side Projects
