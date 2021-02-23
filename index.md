@@ -10,9 +10,9 @@ I am also with Tencent as a backend engineer intern, starting January 2021.
 
 My research interest lies in the intersection of computer graphics and machine learning.
 
-![eigenvalues][eigenvalues]
+{% include _image-cap.html url="/assets/images/eigenvalues.png" description="A contour plot of eigenvalues unexpectedly got from an experiment for my assembly project" %}
 
-Currently, I am working with [Prof. Fu Chi Wing][philip-web] and his PhD student [Xu Hao][xuhao-web], on a project in the field of computational design. We are studying a new way to analyze the stress over an object, and optimization of structure rigidity of assembly structures.
+Currently, I am working with [Prof. Fu Chi Wing][philip-web] and his PhD student [Xu Hao][xuhao-web], on a project in the field of computational design. We are studying a new way to analyze the stress over a multi-joint assembly object, and optimization of its structural rigidity.
 
 In my third year of study, I received Professor Charles Kao Scholarship and worked with [Prof. Anand Sarwate][anand-web] at Rutgers University.
 We aimed to use a computationally efficient classifier such as SVM or logistic regression to save the computation cost of a given deep neural network. The idea is to "cut", or more precisely, apply the classifier on a intermediate layer of the neural net at inference time. The efficient classifier performs binary classification for early stopping of the inference process. The neural net stops the forward pass if the binary classifier gives a very confident prediction, and hence, save the computation.
@@ -20,6 +20,7 @@ We aimed to use a computationally efficient classifier such as SVM or logistic r
 In the summer of 2019, I, with [Yuxiao Qu][qyx-web], worked on an NLP project, under the supervision of [Prof. Michael Lyu][michael-web]. We tried to devise a black-box method to attack state-of-the-art text classification models. Our project was awarded *Best Project* by the faculty out of 40+ projects.
 
 ![prism][prism]
+{% include _image-cap.html url="/assets/images/prism.jpg" description="A tribute to Pink Floyd: Sampling color into the dark side of the moon" %}
 
 ### Side Projects
 

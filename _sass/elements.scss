@@ -20,6 +20,12 @@ figure {
 	margin-bottom: $indent-var;
 }
 
+figcaption {
+  font-size: .75rem;
+  color: #7f7f7f;
+  text-align: center;
+}
+
 article img {
 	max-width: 100%;
 	height: auto;
