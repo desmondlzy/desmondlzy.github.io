@@ -10,7 +10,7 @@ I am also with Tencent as a backend engineer intern, starting January 2021.
 
 My research interest lies in the intersection of computer graphics and machine learning.
 
-{% include _image-cap.html url="/assets/images/eigenvalues.png" description="A contour plot of eigenvalues unexpectedly got from an experiment for my assembly project" %}
+{% include _image-cap.html url='/assets/images/eigenvalues.png' description="A contour plot of eigenvalues unexpectedly got from an experiment for my assembly project" %}
 
 Currently, I am working with [Prof. Fu Chi Wing][philip-web] and his PhD student [Xu Hao][xuhao-web], on a project in the field of computational design. We are studying a new way to analyze the stress over a multi-joint assembly object, and optimization of its structural rigidity.
 
@@ -19,7 +19,7 @@ We aimed to use a computationally efficient classifier such as SVM or logistic r
 
 In the summer of 2019, I, with [Yuxiao Qu][qyx-web], worked on an NLP project, under the supervision of [Prof. Michael Lyu][michael-web]. We tried to devise a black-box method to attack state-of-the-art text classification models. Our project was awarded *Best Project* by the faculty out of 40+ projects.
 
-{% include _image-cap.html url="/assets/images/prism.jpg" description="A tribute to Pink Floyd: Sampling color into the dark side of the moon" %}
+{% include _image-cap.html url='/assets/images/prism.jpg' description="A tribute to Pink Floyd: Sampling colors into the dark side of the moon" %}
 
 ### Side Projects
 
