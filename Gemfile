@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "kramdown-parser-gfm"
-gem "kramdown", ">= 2.3.0"
+gem "kramdown", ">= 2.3.1"
 gem "jekyll", "~> 3.0"
 gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
