@@ -10,9 +10,9 @@ I am also with Tencent as a backend engineer intern, starting January 2021.
 
 My research interest lies in the intersection of computer graphics and machine learning.
 
-{% include _image-cap.html url='/assets/images/eigenvalues.png' description="A contour plot of eigenvalues unexpectedly got from an experiment for my assembly project" %}
+{% include _image-cap.html url='/assets/images/eigenvalues.png' description="An unexpectedly nice-looking plot from my fabrication project" %}
 
-Currently, I am working with [Prof. Fu Chi Wing][philip-web], on a project in the field of computational design. We are studying a new way to analyze the stress over a multi-joint assembly, and optimization of its structural rigidity.
+Currently, I am working with [Prof. Fu Chi Wing][philip-web], on a project in the field of fabrication. We are studying a new way to analyze the stress over a multi-joint assembly, and optimization of its structural rigidity.
 
 In year 2020, I received Professor Charles Kao Scholarship and worked with [Prof. Anand Sarwate][anand-web] at Rutgers University, on computation efficient neural networks. Before that, I've also explored another research topic on NLP with [Prof. Michael Lyu][michael-web].
 
