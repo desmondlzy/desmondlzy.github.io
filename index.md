@@ -3,8 +3,8 @@ layout: page
 excerpt: "About Me..."
 ---
 
-I am an undergrad in [Department of Computer Science and Engineering][cse-web] at [the Chinese University of Hong Kong][cuhk-web]. I am expected to finish my BSc. in Computer Science in June 2021. Check my [resume][my-resume] for more information. 
-I am also with Tencent as a backend engineer intern, starting January 2021.
+I am an undergrad in [Department of Computer Science and Engineering][cse-web] at [the Chinese University of Hong Kong][cuhk-web]. I am expected to finish my BSc. in Computer Science in July 2021. Check my [resume][my-resume] for more information. 
+I also spent some time with Tencent as a backend engineer intern in 2021.
 
 ### Research Projects
 
@@ -28,6 +28,10 @@ Check them out through the links and please consider to give a star on GitHub if
 - [TimeWalk][timewalk-core]: Get your coding metrics! An extensible coding statistics tracking engine. [VSCode plugin][timewalk-vscode] available.
 - [Slurmmy][slurmmy-github]: Scripts that automate slurm jobs submission, maximize your slurm cluster usage.
 
+<!-- ### More...?
+
+In case you're so boring as to read through this page, you might wanna take a look [here][blog], where you can find a haphazard selection of mediocre photos I took over the years... -->
+
 
 [sid-web]: http://staff.ie.cuhk.edu.hk/~sjaggi/
 [michael-web]: http://www.cse.cuhk.edu.hk/~lyu
@@ -41,6 +45,7 @@ Check them out through the links and please consider to give a star on GitHub if
 [timewalk-core]: https://github.com/desmondlzy/timewalk-core
 [timewalk-vscode]: https://github.com/desmondlzy/timewalk-vscode
 [slurmmy-github]: https://github.com/desmondlzy/slurmmy
+[blog]: https://blog.desmondlzy.me
 [slurmmy-intro-en]: {{ site.baseurl }}/blog/slurmmy-intro-en
 [prism]: {{ site.baseurl }}/assets/images/prism.jpg
 [eigenvalues]: {{ site.baseurl }}/assets/images/eigenvalues.png
