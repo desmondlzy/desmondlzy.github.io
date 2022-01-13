@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Worst-Case Rigidity Analysis and Optimization for Assemblies with Mechanical Joints | Desmond/Zhenyuan Liu
+  </title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LY93LCCXF8"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-LY93LCCXF8', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+<meta name="keywords" content="Desmond/Zhenyuan Liu">
+<meta property="og:locale" content='en)_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="Worst-Case Rigidity Analysis and Optimization for Assemblies with Mechanical Joints">
+<meta property="og:description" content="Worst-Case Rigidity Analysis and Optimization for Assemblies with Mechanical Joints Eurographics 2022 (Conditionally Accepted) Zhenyuan Liu The Chinese">
+<meta property="og:url" content="/publications/rigidity/">
+<meta property="og:image" content="images/%!s()">
+<link rel="canonical" href="/publications/rigidity/"><link rel="apple-touch-icon" sizes="180x180" href='/images/icons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='/images/icons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='/images/icons/favicon-16x16.png'>
+<link rel="manifest" href='/images/icons/site.webmanifest'>
+
+
+
+
+<link rel="stylesheet" href="/css/styles.c33f338021d7f74aafa97078663b2338b2de81299f3f2228b4325d30d97bcbc9acf78f577600cf5dfb39dfffab36ff5ba4eadf89ad4d300d98ff5580a4eaf371.css" integrity="sha512-wz8zgCHX90qvqXB4ZjsjOLLegSmfPyIotDJdMNl7y8ms949XdgDPXfs53/&#43;rNv9bpOrfia1NMA2Y/1WApOrzcQ==">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+</head>
+
+  <body>
+    <main>
+      <div class="nav-drop">
+  <div class="nav-body">
+      <a href="/" class="nav_item">Home</a>
+      <a href="/cv.pdf" class="nav_item">Resume</a>
+    <div class="nav-close"></div>
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href="/" class="nav-brand">Desmond/Zhenyuan Liu</a>
+    <ul class="nav-labels">
+      <li>
+        <a href="/" class="nav_item">Home</a>
+      </li>
+      <li>
+        <a href="/cv.pdf" class="nav_item">Resume</a>
+      </li>
+    </ul>
+    <p class="nav-byline pale"></p>
+    
+      
+    </div>
+  </nav>
+</header>
+
+
+      
+  <article class="post">
+    <div>
+      <div class="post_body" style="width: 100%;">
+        <div class="post_inner">
+          
+
+
+
+
+
+
+<h1>Worst-Case Rigidity Analysis and Optimization for Assemblies with Mechanical Joints</h1>
+
+
+<h5 style="margin-top: 0;"><a href=></a>Eurographics 2022 (Conditionally Accepted)</a></h5>
+
+
+<div class="authors header-font">
+	
+		
+		
+		
+		
+		
+		
+
+		<div class="author-info">
+
+		<a class="author-name" href=https://desmondlzy.me>Zhenyuan Liu</a>
+
+		<div class="author-affliation">
+		
+			
+			
+
+			<a class="author-affiliation-name" href="https://cuhk.edu.hk">The Chinese University of Hong Kong,</a>
+			
+		
+			
+			
+
+			<a class="author-affiliation-name" href="https://ist.ac.at">IST Austria</a>
+			
+		
+		</div>
+
+		</div>
+
+	
+		
+		
+		
+		
+		
+		
+
+		<div class="author-info">
+
+		<a class="author-name" href=>Jingyu Hu</a>
+
+		<div class="author-affliation">
+		
+			
+			
+
+			<a class="author-affiliation-name" href="https://cuhk.edu.hk">The Chinese University of Hong Kong</a>
+			
+		
+		</div>
+
+		</div>
+
+	
+		
+		
+		
+		
+		
+		
+
+		<div class="author-info">
+
+		<a class="author-name" href=https://www.cse.cuhk.edu.hk/~haoxu>Hao Xu</a>
+
+		<div class="author-affliation">
+		
+			
+			
+
+			<a class="author-affiliation-name" href="https://cuhk.edu.hk">The Chinese University of Hong Kong</a>
+			
+		
+		</div>
+
+		</div>
+
+	
+		
+		
+		
+		
+		
+		
+
+		<div class="author-info">
+
+		<a class="author-name" href=https://songpenghit.github.io>Peng Song</a>
+
+		<div class="author-affliation">
+		
+			
+			
+
+			<a class="author-affiliation-name" href="https://www.sutd.edu.sg">Singapore University of Technology and Design</a>
+			
+		
+		</div>
+
+		</div>
+
+	
+		
+		
+		
+		
+		
+		
+
+		<div class="author-info">
+
+		<a class="author-name" href=https://ran-zhang.com/>Ran Zhang</a>
+
+		<div class="author-affliation">
+		
+			
+			
+
+			<a class="author-affiliation-name" href="https://hpi.de/en/index.html">Hasso Plattner Institute</a>
+			
+		
+		</div>
+
+		</div>
+
+	
+		
+		
+		
+		
+		
+		
+
+		<div class="author-info">
+
+		<a class="author-name" href=https://berndbickel.com/about-me>Bernd Bickel</a>
+
+		<div class="author-affliation">
+		
+			
+			
+
+			<a class="author-affiliation-name" href="https://ist.ac.at">IST Austria</a>
+			
+		
+		</div>
+
+		</div>
+
+	
+		
+		
+		
+		
+		
+		
+
+		<div class="author-info">
+
+		<a class="author-name" href=https://www.cse.cuhk.edu.hk/~cwfu>Chi-Wing Fu</a>
+
+		<div class="author-affliation">
+		
+			
+			
+
+			<a class="author-affiliation-name" href="https://cuhk.edu.hk">The Chinese University of Hong Kong</a>
+			
+		
+		</div>
+
+		</div>
+
+	
+</div>
+
+
+<p style="margin-top: 1em;"><em>LEGO models (and more assemblies) made structurally rigid</em></p>
+
+
+<figure><img src="https://desmondlzy.me/publications/rigidity/teaser.jpg"
+         alt="Given the assembly structure of the 153-brick LEGO Technic ROLLING CHASSIS (a), our method quantifies the rigidity of the structure (b1) and finds the worst-case external load configuration (yellow arrows) that maximally deforms it (c). A larger rigidity value indicates a more rigid assembly and thus greater resistance to external forces. After we strengthen the initial model as per the recommendation given by our method, the reinforced model (b2) has its rigidity value tripled, and undergoes less deformation than the initial one under the same loads that twist the model. The physical experiments (c) also show results that align with the analysis of our method."/><figcaption>
+            <p>Given the assembly structure of the 153-brick LEGO Technic ROLLING CHASSIS (a), our method quantifies the rigidity of the structure (b1) and finds the worst-case external load configuration (yellow arrows) that maximally deforms it (c). A larger rigidity value indicates a more rigid assembly and thus greater resistance to external forces. After we strengthen the initial model as per the recommendation given by our method, the reinforced model (b2) has its rigidity value tripled, and undergoes less deformation than the initial one under the same loads that twist the model. The physical experiments (c) also show results that align with the analysis of our method.</p>
+        </figcaption>
+</figure>
+
+<h2 id="abstract">Abstract</h2>
+<p>We study structural rigidity for assemblies with mechanical joints.
+Existing methods identify whether an assembly is structurally rigid by assuming parts are perfectly rigid.
+Yet, an assembly identified as rigid may not be that “rigid” in practice, and existing methods cannot quantify how rigid an assembly is. We address this limitation by developing a new measure, <em>worst-case rigidity</em>, to quantify the rigidity of an assembly as the largest possible deformation that the assembly undergoes for arbitrary external loads of fixed magnitude.
+Computing worst-case rigidity is non-trivial due to non-rigid parts and different joint types.
+We encode parts and their connections into a stiffness matrix, in which parts are modeled as deformable objects and joints as soft constraints. 
+Based on this, we formulate worst-case rigidity analysis as an optimization that seeks the worst-case deformation of an assembly for arbitrary external loads. 
+Furthermore, we present methods to optimize the geometry and topology of various assemblies to enhance their rigidity, as guided by our rigidity measure. 
+We validate our analysis and optimization on various assembly structures with fabrication.</p>
+<h2 id="resources">Resources</h2>
+<p><a href="https://desmondlzy.me/publications/rigidity/paper.pdf">Paper (preprint)</a> [19.6M]</p>
+<h2 id="bibtex">BibTeX</h2>
+<pre tabindex="0"><code>@article{liu2022rigidity,
+  title = {Worst-Case Rigidity Analysis and Optimization for Assemblies with Mechanical Joints},
+  author = {Zhenyuan Liu and Jingyu Hu and Hao Xu and Peng Song and Ran Zhang and Bernd Bickel and Chi-Wing Fu},
+  year = {2022},
+  journal = {Computer Graphics Forum}, 
+  volume = {41},
+  number = {2},
+  note = {to appear}
+}
+</code></pre><h2 id="acknowledgments">Acknowledgments</h2>
+<p>This work was supported by the Research Grants Council of the Hong Kong Special Administrative Region, China [Project No.: CUHK 14201921] and the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No 715767 – MATERIALIZABLE).
+We thank the anonymous reviewers for their insightful feedback; Christian Hafner for proofreading and discussions; 
+Ziqi Wang, Haisen Zhao, and Martin Hafskjold Thoresen for the helpful discussions; and the Miba Machine Shop at IST Austria for 3D printing the BUNNY and BOOMERANG models.</p>
+
+        </div>
+      </div>
+    </div>
+  </article>
+
+    </main>
+    <footer class="footer pale">
+  <p class="attribution upcase">Desmond/Zhenyuan Liu, 2022</p>
+  <p class="attribution upcase">Designed By <a href="https://jpg.desmondlzy.me/about">Desmond</a></p>
+</footer>
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/blog/slurmmy-intro-zh/</loc>
+    <lastmod>2020-07-11T21:00:24+08:00</lastmod>
+  </url><url>
+    <loc>/blog/</loc>
+    <lastmod>2020-07-11T21:00:24+08:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2020-07-11T21:00:24+08:00</lastmod>
+  </url><url>
+    <loc>/blog/slurmmy-intro-en/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/404/</loc>
+  </url><url>
+    <loc>/publications/</loc>
+  </url><url>
+    <loc>/tags/</loc>
+  </url><url>
+    <loc>/publications/rigidity/</loc>
+  </url>
+</urlset>
