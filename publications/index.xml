@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desmond/Zhenyuan Liu</title>
+    <link>/publications/</link>
+    <description>Recent content on Desmond/Zhenyuan Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Directionality-Aware Design of Embroidery Patterns</title>
+      <link>/publications/embroidery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/embroidery/</guid>
+      <description>🪡 Transform images to beautiful patterns ready for an embroidery machine to sew</description>
+    </item>
+    
+    <item>
+      <title>Worst-Case Rigidity Analysis and Optimization for Assemblies with Mechanical Joints</title>
+      <link>/publications/rigidity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/rigidity/</guid>
+      <description>🧱 LEGO models (and more assemblies) made structurally rigid</description>
+    </item>
+    
+  </channel>
+</rss>
