@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Desmond/Zhenyuan Liu</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on Desmond/Zhenyuan Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Jul 2020 21:00:24 +0800</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7x24 自动向CSE GPGPU cluster提交任务</title>
+      <link>/blog/slurmmy-intro-zh/</link>
+      <pubDate>Sat, 11 Jul 2020 21:00:24 +0800</pubDate>
+      
+      <guid>/blog/slurmmy-intro-zh/</guid>
+      <description>English version available.
+Background 最近这段时间在做一个ML的project，难免要当一下调参侠，用CSE的GPGPU cluster来跑成千上万组hyperparameter。 虽然CSE的cluster算力还不错，但是CSE还是利用slurm对任务提交还是做了很多限制。
+最令人难受的就是同一个用户同时只能有最多4个pending/running的任务。
+这个限制下，其实如果只是做做简单的training/testing倒也没有什么问题，但是当需要finetune的hyperparameter的数量一多，就会感到掣肘。 如果把每组hyperparameter单独提交，同时只能跑四个任务的限制就需要用户大量手动提交，效率很低。多把几组hyperparameter放在一起的话，一不留神就会超时。四周问了问，似乎大家也没有很好的解决方案。
+为了可以 摸鱼充分利用时间，我用Python写了一个简单的脚本，叫做slurmmy，来解决这个问题。我看现在做ML research的同学还挺多的，所以我就把脚本放在了这个GitHub repo, 大家可以看看能不能用得上，（⭐，🙏。
+slurmmy的原理并不复杂。读取了所有command之后，slurmmy会持续读取slurm queue的信息，一旦有任务完成，出现了空位，一个新的任务会被自动提交。同时，slurmmy也可以将若干command合为一批进行提交，或是在computing server上通过多线程同时执行多个command，以提高cpu瓶颈任务的效率。
+具体流程也非常简单：
+ssh到linux5-16 把需要run的任务对应的shell command写/生成在一个文本文件中 (my-tasks.txt) Clone slurmmy 并执行slurmmy中的dispatcher.py，根据自己的需要传入对应的arguments/使用nohup nohup python slurmmy/dispatcher.py my-tasks.txt --slurm-args=&amp;quot;-c 10 --gres=gpu:1 -p gpu_24h&amp;quot; &amp;amp; 😪 Tips for CUHK CSE Users 可以用nohup和&amp;amp;把slurmmy挂在后台 如果是知道单个任务的时间较短，可以适当调大--tasks-per-allocation，减少slurm scheduling的overhead 如果CPU是程序瓶颈，可以考虑多进程并行，调大--num-processes，这个值应当不小于--slurm-args中-c，也就是向slurm申请的core的数量 留意CSE Linux的重启周期，奇数/偶数linux server在奇数/偶数月的第一个星期一早上6点重启。 使用template来获得邮件提醒等有趣功能 </description>
+    </item>
+    
+    <item>
+      <title>7x24 Automatically Submit Thousands of Jobs to CSE GPGPU Cluster</title>
+      <link>/blog/slurmmy-intro-en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/slurmmy-intro-en/</guid>
+      <description>Chinese version available.
+Background Recently I&amp;rsquo;ve been working on a machine learning project, so it comes inevitable to do some time-eating finetuning tasks. Obviously, it would be infeasible to tune thousands of combinations of hyperparameters all on my laptop. As a result, I turn to CSE&amp;rsquo;s GPGPU computing cluster, hoping their TITANs can help. The computational power is great, but meanwhile, it&amp;rsquo;s also quite underwhelming as they put a very annoying limit for the users —</description>
+    </item>
+    
+  </channel>
+</rss>
