@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Why We Should Engage More in Open Source? | Desmond/Zhenyuan Liu
+
+  </title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-LY93LCCXF8"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-LY93LCCXF8');
+        }
+      </script>
+    
+  
+
+
+
+
+<meta name="keywords" content="Desmond/Zhenyuan Liu">
+<meta property="og:locale" content='en)_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="Why We Should Engage More in Open Source?">
+<meta property="og:description" content="The idea of writing this post started pretty straightforward. I made my first code contribution to a sizeable open source project (nerfstudio-project/gsplat,">
+<meta property="og:url" content="/blog/open-source-contribution/">
+<meta property="og:image" content="images/%!s(&lt;nil&gt;)"><meta property="article:published_time" content="2024-15-12" />
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage":"\/blog\/open-source-contribution\/",
+      "name": "Desmond\/Zhenyuan Liu",
+      "headline": "Why We Should Engage More in Open Source?",
+      "description": "The idea of writing this post started pretty straightforward. I made my first code contribution to a sizeable open source project (nerfstudio-project\/gsplat,",
+      "url": "\/blog\/open-source-contribution\/",
+      "datePublished": "2024-15-12",
+      "dateModified": "2024-15-12",
+      "author": {
+        "@type": "Person",
+        "name": ""
+      },
+      "image":{
+        "@type":"ImageObject",
+        "url": "images\/%!s(\u003cnil\u003e)"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type":"ImageObject",
+          "url": "images\/%!s(\u003cnil\u003e)"
+        },
+        "name": "Desmond\/Zhenyuan Liu"
+      }
+    }
+  </script>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="">
+  <meta name="twitter:title" content="Why We Should Engage More in Open Source?">
+  <meta name="twitter:description" content="The idea of writing this post started pretty straightforward. I made my first code contribution to a sizeable open source project (nerfstudio-project/gsplat,">
+  <meta name="twitter:image" content="images/%!s(&lt;nil&gt;)">
+<link rel="canonical" href="/blog/open-source-contribution/"><link rel="apple-touch-icon" sizes="180x180" href='images/icons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='images/icons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='images/icons/favicon-16x16.png'>
+<link rel="manifest" href='/images/icons/site.webmanifest'>
+
+
+
+
+<link rel="stylesheet" href="/css/styles.ef03a5ce27052030515f235760f3379fe66f2c94b47393d8883d194050e1ce83c4e53a5c851388ad6e215711258bb37a757d3084984801f454164a09e090d539.css" integrity="sha512-7wOlzicFIDBRXyNXYPM3n&#43;ZvLJS0c5PYiD0ZQFDhzoPE5TpchROIrW4hVxEli7N6dX0whJhIAfRUFkoJ4JDVOQ==" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+
+  <body>
+    <main>
+      <div class="nav-drop">
+  <div class="nav-body">
+      <a href="/" class="nav_item">Home</a>
+      <a href="/blog" class="nav_item">Blog</a>
+    <div class="nav-close"></div>
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href="/" class="nav-brand">Desmond/Zhenyuan Liu</a>
+    <ul class="nav-labels">
+      <li>
+        <a href="/" class="nav_item">Home</a>
+      </li>
+      <li>
+        <a href="/blog" class="nav_item">Blog</a>
+      </li>
+    </ul>
+    <p class="nav-byline pale"></p>
+    
+      
+    </div>
+  </nav>
+</header>
+
+
+      
+  <article class="post">
+    <div>
+      <h1 class="post_title">Why We Should Engage More in Open Source?</h1>
+      <p class="pale">December 15, 2024</p>
+      <aside>
+        
+      </aside>
+      <div class="post_body">
+        <div class="post_inner">
+          <p>The idea of writing this post started pretty straightforward.
+I made my first code contribution to a sizeable open source project (<a href="https://github.com/nerfstudio-project/gsplat"><code>nerfstudio-project/gsplat</code></a>, 2.4k stars).
+It might sound like I&rsquo;m bragging, but please hear me out.</p>
+<p>The size/difficulty of the contribution is really nothing to write home about (but I&rsquo;m still gonna write about it here lol).
+The pull request can been seen <a href="https://github.com/nerfstudio-project/gsplat/pull/504">here</a>.
+tl;dr: It&rsquo;s a tiny 3-line fix include guard naming.</p>
+<p>For those who are not too familiar with c/cpp/cuda programming,
+to avoid a header file included twice that lead to compilation errors such as redefinition,
+we usually add include guard macros to each header file like this.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#ifndef HEADER_FILENAME_H
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#define HEADER_FILENAME_H 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>code...
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#endif </span><span style="color:#75715e">// HEADER_FILENAME_H
+</span></span></span></code></pre></div><p>This practical use of macros is pretty easy-to-understand, and is pretty much taught in most of the introductory c/cpp programming courses in a uni&rsquo;s computer science curriculum.
+Even they look perfectly harmless, but these include guards can easily catch the programmers <em>off guard</em>.
+Namely, if you mess up <code>HEADER_FILENAME_H</code>, like <code>#ifndef</code> and <code>#define</code> followed by different names,
+or having the name clash with another file&rsquo;s include guard&rsquo;s, you might get hundreds of lines of compiler error messages in which nothing points to the include guard name typo (thank you, c macros, I guess).
+All the messages might not be too hard for seasoned devs to parse, but can be quite overwhelming for someone new just gets their hand on this.</p>
+<p>This time the fix I proposed is no different. I spotted it while I was using their code, got the errors, investigated, and fixed it locally.
+But the true difference is, this time my efforts didn&rsquo;t just stop there.
+Instead, I tried to fix it <em>for everyone</em>.</p>
+<p>You see, trying to fix it for everyone isn&rsquo;t hard at all: check out other pull requests&rsquo; formats, create a pull request, nicely communicate the purpose and intents with the maintainers; simple as is.
+The hard thing is the awareness/willingness to do so.</p>
+<p>Even a tiny fix can potentially save hundreds of developers&rsquo; precious time and frustration &ndash; especially those who don&rsquo;t know how to deal with this issue.</p>
+<p>If you&rsquo;ve never heard it, open source community has been truly doing a terrific job.
+The Linux kernel, and all the variety of distros, toolchains, ecosystem around it are powering most of the servers, mobile phones (android), and smart devices.
+Blender is yet another open source example that I frequently use in my own research without which I probably wouldn&rsquo;t have made this far.
+It is hard to believe such all these creations that are relevant literally everyone often time are just <em>free</em>, not only free to use its functionality,
+but also &ldquo;have the freedom to run, copy, distribute, study, change and improve the software.&rdquo; per <a href="https://www.gnu.org/philosophy/free-sw.en.html">GNU</a>.
+This was shocking to me when I first heard about it, especially when I had known was literally just you pay money to get the service from some big tech companies.</p>
+<p>This is technically not the first open source contribution of mine.
+I&rsquo;ve been trying to open source my research code (such as my <a href="https://github.com/desmondlzy/embroidery-streamlines">embroidery</a> project), and some side projects if they potentially would help people other than me.
+But the contribution to <code>gsplat</code> is the first time I really feel the difference. It&rsquo;s partly because of the scale and the amount of interest in this project.</p>
+<p>The project is <code>gsplat</code>. It implements a differentiable rendering algorithm called 3D Gaussian Splatting,
+and a series of algorithms improving it.
+I use it intensively in my current research project.
+The role it plays is so fundamental that I would say the project would have absolutely no chance of getting to the current stage without it.
+That&rsquo;s why I have been nothing but thankful to the developers and maintainers of <code>gsplat</code>.</p>
+
+        </div>
+      </div>
+    </div>
+  </article>
+
+    </main>
+    <footer class="footer pale header-font">
+  <p class="attribution upcase">Desmond/Zhenyuan Liu, 2025</p>
+  <p class="attribution upcase">Designed By <a href="https://desmondlzy.me">Desmond</a></p>
+</footer>
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

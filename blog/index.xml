@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desmond/Zhenyuan Liu</title>
+    <link>/blog/</link>
+    <description>Recent content on Desmond/Zhenyuan Liu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>zhenyuan.liu [at] ist.ac.at (Zhenyuan Liu)</managingEditor>
+    <webMaster>zhenyuan.liu [at] ist.ac.at (Zhenyuan Liu)</webMaster>
+    <lastBuildDate>Thu, 07 Nov 2024 22:56:00 +0200</lastBuildDate>
+    <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Workflow: Why Vim, Why Not</title>
+      <link>/blog/why-vim/</link>
+      <pubDate>Thu, 07 Nov 2024 22:56:00 +0200</pubDate><author>zhenyuan.liu [at] ist.ac.at (Zhenyuan Liu)</author>
+      <guid>/blog/why-vim/</guid>
+      <description>So I&amp;rsquo;m thinking of summarizing the research coding workflow I use now into a couple of blog posts here. Hopefully by having a moment of reflection and writing, I can get a better understanding of how I do things and perhaps even give people some cool ideas.&#xA;So the very first one in the sequel is gonna be about editors. This topic apparently sometimes can get really controversial, so I&amp;rsquo;ll be just focusing on my personal experience and feelings of how me using my personal favorite coding tools changes my coding mindsets, and alleviates my pain from the repetitive coding tasks.</description>
+    </item>
+    <item>
+      <title>7x24 Automatically Submit Thousands of Jobs to CSE GPGPU Cluster</title>
+      <link>/blog/slurmmy-intro/</link>
+      <pubDate>Sat, 11 Jul 2020 21:00:24 +0800</pubDate><author>zhenyuan.liu [at] ist.ac.at (Zhenyuan Liu)</author>
+      <guid>/blog/slurmmy-intro/</guid>
+      <description>Edit (Nov 7 2024): This post was written back in 2020 at CUHK. Things might have changed a lot and the article might be very obsolete now.&#xA;Background Recently I&amp;rsquo;ve been working on a machine learning project, so it comes inevitable to do some time-eating finetuning tasks. Obviously, it would be infeasible to tune thousands of combinations of hyperparameters all on my laptop. As a result, I turn to CSE&amp;rsquo;s GPGPU computing cluster, hoping their TITANs can help.</description>
+    </item>
+  </channel>
+</rss>
