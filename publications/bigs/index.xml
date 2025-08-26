@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BiGS: Bidirectional Primitives for Relightable 3D Gaussian Splatting on Desmond/Zhenyuan Liu</title>
+    <link>//localhost:1313/publications/bigs/</link>
+    <description>Recent content in BiGS: Bidirectional Primitives for Relightable 3D Gaussian Splatting on Desmond/Zhenyuan Liu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>zhenyuan.liu [at] ist.ac.at (Zhenyuan Liu)</managingEditor>
+    <webMaster>zhenyuan.liu [at] ist.ac.at (Zhenyuan Liu)</webMaster>
+    <atom:link href="//localhost:1313/publications/bigs/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
