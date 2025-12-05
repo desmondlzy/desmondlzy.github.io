@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/bloggraph/publications/</loc>
+    <lastmod>2022-01-20T20:55:17+01:00</lastmod>
+  </url><url>
+    <loc>/bloggraph/</loc>
+    <lastmod>2022-01-20T20:55:17+01:00</lastmod>
+  </url><url>
+    <loc>/bloggraph/publications/lossless-conversion-from-soup-to-voxels/</loc>
+    <lastmod>2022-01-20T20:55:17+01:00</lastmod>
+  </url><url>
+    <loc>/bloggraph/publications/realtime-rendering-on-a-single-thread/</loc>
+    <lastmod>2021-02-20T20:55:17+01:00</lastmod>
+  </url><url>
+    <loc>/bloggraph/categories/</loc>
+  </url><url>
+    <loc>/bloggraph/tags/</loc>
+  </url>
+</urlset>

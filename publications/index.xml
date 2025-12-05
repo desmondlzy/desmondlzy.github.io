@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desmond/Zhenyuan Liu</title>
+    <link>/publications/</link>
+    <description>Recent content on Desmond/Zhenyuan Liu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>zhenyliu [at] ethz.ch (Zhenyuan Liu)</managingEditor>
+    <webMaster>zhenyliu [at] ethz.ch (Zhenyuan Liu)</webMaster>
+    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HiGS: Inverse Radiative Transport for Infrared Scenes with Gaussian Primitives</title>
+      <link>/publications/higs/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><author>zhenyliu [at] ethz.ch (Zhenyuan Liu)</author>
+      <guid>/publications/higs/</guid>
+      <description>☀️ Warm up Bunny with hemicubes and Gaussian splats from thermal images</description>
+    </item>
+    <item>
+      <title>BiGS: Bidirectional Primitives for Relightable 3D Gaussian Splatting</title>
+      <link>/publications/bigs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>zhenyliu [at] ethz.ch (Zhenyuan Liu)</author>
+      <guid>/publications/bigs/</guid>
+      <description>💡 3D objects illuminated with dancing lights and HDRI images</description>
+    </item>
+    <item>
+      <title>Directionality-Aware Design of Embroidery Patterns</title>
+      <link>/publications/embroidery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>zhenyliu [at] ethz.ch (Zhenyuan Liu)</author>
+      <guid>/publications/embroidery/</guid>
+      <description>🪡 Transform images to beautiful patterns ready for an embroidery machine to sew</description>
+    </item>
+    <item>
+      <title>Worst-Case Rigidity Analysis and Optimization for Assemblies with Mechanical Joints</title>
+      <link>/publications/rigidity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>zhenyliu [at] ethz.ch (Zhenyuan Liu)</author>
+      <guid>/publications/rigidity/</guid>
+      <description>🧱 LEGO models (and more assemblies) made structurally rigid</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>7x24 Automatically Submit Thousands of Jobs to CSE GPGPU Cluster | Desmond/Zhenyuan Liu
+
+  </title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-LY93LCCXF8"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-LY93LCCXF8');
+        }
+      </script>
+
+
+<meta name="keywords" content="Desmond/Zhenyuan Liu">
+<meta property="og:locale" content='en)_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="7x24 Automatically Submit Thousands of Jobs to CSE GPGPU Cluster">
+<meta property="og:description" content="Edit (Nov 7 2024): This post was written back in 2020 at CUHK. Things might have changed a lot and the article might be very obsolete now.
+Background
+Recently">
+<meta property="og:url" content="//localhost:1313/blog/slurmmy-intro/">
+<meta property="og:image" content="images/%!s(&lt;nil&gt;)"><meta property="article:published_time" content="2020-11-07" />
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage":"\/\/localhost:1313\/blog\/slurmmy-intro\/",
+      "name": "Desmond\/Zhenyuan Liu",
+      "headline": "7x24 Automatically Submit Thousands of Jobs to CSE GPGPU Cluster",
+      "description": "\u003cp\u003e\u003cstrong\u003eEdit (Nov 7 2024):\u003c\/strong\u003e This post was written back in 2020 at CUHK. Things might have changed a lot and the article might be very obsolete now.\u003c\/p\u003e\n\u003ch2 id=\u0022background\u0022\u003eBackground\u003c\/h2\u003e\n\u003cp\u003eRecently\u003c\/p\u003e",
+      "url": "\/\/localhost:1313\/blog\/slurmmy-intro\/",
+      "datePublished": "2020-11-07",
+      "dateModified": "2020-11-07",
+      "author": {
+        "@type": "Person",
+        "name": ""
+      },
+      "image":{
+        "@type":"ImageObject",
+        "url": "images\/%!s(\u003cnil\u003e)"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type":"ImageObject",
+          "url": "images\/%!s(\u003cnil\u003e)"
+        },
+        "name": "Desmond\/Zhenyuan Liu"
+      }
+    }
+  </script>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="">
+  <meta name="twitter:title" content="7x24 Automatically Submit Thousands of Jobs to CSE GPGPU Cluster">
+  <meta name="twitter:description" content="Edit (Nov 7 2024): This post was written back in 2020 at CUHK. Things might have changed a lot and the article might be very obsolete now.
+Background
+Recently">
+  <meta name="twitter:image" content="images/%!s(&lt;nil&gt;)">
+<link rel="canonical" href="//localhost:1313/blog/slurmmy-intro/"><link rel="apple-touch-icon" sizes="180x180" href='images/icons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='images/icons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='images/icons/favicon-16x16.png'>
+<link rel="manifest" href='//localhost:1313/images/icons/site.webmanifest'>
+
+
+
+
+
+<link rel="stylesheet" href="//localhost:1313/css/styles.f36664bee7a140aa7b21b223dc430f00858a9c8550a552395ac531813dfc41907454f04629757fbcfae1fb6ce12f04f730d54dae87fb6aa980b5f6dfdc28591b.css" integrity="sha512-82ZkvuehQKp7IbIj3EMPAIWKnIVQpVI5WsUxgT38QZB0VPBGKXV/vPrh&#43;2zhLwT3MNVNrof7aqmAtfbf3ChZGw==" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="alternate" type="application/rss+xml" href="/blog/slurmmy-intro/index.xml" title="Desmond/Zhenyuan Liu" />
+</head>
+
+  <body>
+    <main>
+      <div class="nav-drop">
+  <div class="nav-body">
+      <a href="//localhost:1313/" class="nav_item">Home</a>
+      <a href="//localhost:1313/publications" class="nav_item">Publications</a>
+      <a href="https://jpg.desmondlzy.me" class="nav_item">Photos</a>
+    <div class="nav-close"></div>
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href="//localhost:1313/" class="nav-brand">Desmond/Zhenyuan Liu</a>
+    <ul class="nav-labels">
+      <li>
+        <a href="//localhost:1313/" class="nav_item">Home</a>
+      </li>
+      <li>
+        <a href="//localhost:1313/publications" class="nav_item">Publications</a>
+      </li>
+      <li>
+        <a href="https://jpg.desmondlzy.me" class="nav_item">Photos</a>
+      </li>
+    </ul>
+    <p class="nav-byline pale"></p>
+    
+      
+    </div>
+  </nav>
+</header>
+
+
+      
+  <article class="post">
+    <div>
+      <h1 class="post_title">7x24 Automatically Submit Thousands of Jobs to CSE GPGPU Cluster</h1>
+      <p class="pale">July 11, 2020</p>
+      <aside>
+        
+      </aside>
+      <div class="post_body">
+        <div class="post_inner">
+          <p><strong>Edit (Nov 7 2024):</strong> This post was written back in 2020 at CUHK. Things might have changed a lot and the article might be very obsolete now.</p>
+<h2 id="background">Background</h2>
+<p>Recently I&rsquo;ve been working on a machine learning project, so it comes inevitable to do some time-eating finetuning tasks. Obviously, it would be infeasible to tune thousands of combinations of hyperparameters all on my laptop.
+As a result, I turn to CSE&rsquo;s GPGPU computing cluster, hoping their TITANs can help. The computational power is great, but meanwhile, it&rsquo;s also quite underwhelming as they put a very annoying limit for the users —</p>
+<p>At most 4 running/pending tasks at the same time.</p>
+<p>Well, this is fine as long as you don&rsquo;t have lots of parameters to tune (which should be the normal case). However, as the number goes up, it soon becomes tedious to submit all your jobs by hand.
+Some may alleviate the problem by merging small jobs into a larger one, but doing so is also demanding in the sense that you still need to worry about the maximum running time of each job, and the scripts are pretty much not reusable.</p>
+<p>After wasting a non-trivial fraction of my life playing with the CSE server, I&rsquo;ve finally decided to come up with something that could solve this problem (hopefully), that is <a href="https://github.com/desmondlzy/slurmmy"><code>slurmmy</code></a>.</p>
+<p><code>slurmmy</code> comes with a command line interface. It reads the shell commands for the jobs, then keeps on watching the slurm queue continuously. Once a running job terminated, a new one will be submitted automatically via <code>sbatch</code>. So ideally, as long as <code>slurmmy</code> is running, it can assure you there are always 4 jobs running.</p>
+<p>To further squeeze every second for computing, it&rsquo;s also possible for <code>slurmmy</code> to gather jobs into a larger one to reduce slurm&rsquo;s scheduling overhead, or, additionally let <code>slurmmy</code> leverage process-based parallelism to further speed up the computation if your jobs are cpu-bottlenecked.</p>
+<p>You can check out the <a href="https://github.com/desmondlzy/slurmmy">GitHub repo</a> for more details and please give it a ⭐ if you find it helpful, 🙏。</p>
+<p><img src="/images/slurmmy-flow.png" alt="slurmmy-svg"></p>
+<h2 id="an-example-for-cse-cluster">An example for CSE cluster</h2>
+<ul>
+<li><code>ssh</code> to linux6-19</li>
+<li>Get ready the jobs you want to run. Write (Generate) the shell commands for them into a text file, say <code>my-tasks.txt</code>. Each command takes a single line</li>
+<li>Clone <a href="https://github.com/desmondlzy/slurmmy"><code>slurmmy</code></a> if you haven&rsquo;t done so. Then invoke <code>slurmmy/dispatcher.py</code> with the arguments as per your need. Use <code>nohup</code> when appropriate.</li>
+</ul>
+<p>Ah, time for 😪</p>
+<h2 id="tips">Tips</h2>
+<ul>
+<li>Use <code>nohup</code> + <code>&amp;</code> or <code>tmux</code> to keep it running even after your current session ends.</li>
+<li>Change <code>--tasks-per-allocation</code> and <code>--num-processes</code> to get parallel execution of multiple tasks on computing nodes. Note that <code>--num-processes</code> shouldn&rsquo;t exceed the number of cores, i.e. <code>-c</code> for slurm.</li>
+<li>Use <a href="https://github.com/desmondlzy#template">templates</a> to get more flexibility like email notification.</li>
+<li>Keep an eye on the rebooting schedule of the Linux servers. Odd/Even numbered linux servers reboot on the first Monday of odd/even numbered months.</li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+  </article>
+
+    </main>
+    <footer class="footer pale header-font">
+  <p class="attribution upcase">Desmond/Zhenyuan Liu, 2025</p>
+  <p class="attribution upcase">Designed By <a href="https://desmondlzy.me">Desmond</a></p>
+</footer>
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>Workflow: Why Vim, Why Not | Desmond/Zhenyuan Liu
+
+  </title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-LY93LCCXF8"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-LY93LCCXF8');
+        }
+      </script>
+
+
+<meta name="keywords" content="Desmond/Zhenyuan Liu">
+<meta property="og:locale" content='en)_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="Workflow: Why Vim, Why Not">
+<meta property="og:description" content="So I&rsquo;m thinking of summarizing the research coding workflow I use now into a couple of blog posts here.
+Hopefully by having a moment of reflection and">
+<meta property="og:url" content="//localhost:1313/blog/why-vim/">
+<meta property="og:image" content="images/%!s(&lt;nil&gt;)"><meta property="article:published_time" content="2024-07-11" />
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage":"\/\/localhost:1313\/blog\/why-vim\/",
+      "name": "Desmond\/Zhenyuan Liu",
+      "headline": "Workflow: Why Vim, Why Not",
+      "description": "\u003cp\u003eSo I\u0026rsquo;m thinking of summarizing the research coding workflow I use now into a couple of blog posts here.\nHopefully by having a moment of reflection and\u003c\/p\u003e",
+      "url": "\/\/localhost:1313\/blog\/why-vim\/",
+      "datePublished": "2024-07-11",
+      "dateModified": "2024-07-11",
+      "author": {
+        "@type": "Person",
+        "name": ""
+      },
+      "image":{
+        "@type":"ImageObject",
+        "url": "images\/%!s(\u003cnil\u003e)"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type":"ImageObject",
+          "url": "images\/%!s(\u003cnil\u003e)"
+        },
+        "name": "Desmond\/Zhenyuan Liu"
+      }
+    }
+  </script>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="">
+  <meta name="twitter:title" content="Workflow: Why Vim, Why Not">
+  <meta name="twitter:description" content="So I&rsquo;m thinking of summarizing the research coding workflow I use now into a couple of blog posts here.
+Hopefully by having a moment of reflection and">
+  <meta name="twitter:image" content="images/%!s(&lt;nil&gt;)">
+<link rel="canonical" href="//localhost:1313/blog/why-vim/"><link rel="apple-touch-icon" sizes="180x180" href='images/icons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='images/icons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='images/icons/favicon-16x16.png'>
+<link rel="manifest" href='//localhost:1313/images/icons/site.webmanifest'>
+
+
+
+
+
+<link rel="stylesheet" href="//localhost:1313/css/styles.f36664bee7a140aa7b21b223dc430f00858a9c8550a552395ac531813dfc41907454f04629757fbcfae1fb6ce12f04f730d54dae87fb6aa980b5f6dfdc28591b.css" integrity="sha512-82ZkvuehQKp7IbIj3EMPAIWKnIVQpVI5WsUxgT38QZB0VPBGKXV/vPrh&#43;2zhLwT3MNVNrof7aqmAtfbf3ChZGw==" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="alternate" type="application/rss+xml" href="/blog/why-vim/index.xml" title="Desmond/Zhenyuan Liu" />
+</head>
+
+  <body>
+    <main>
+      <div class="nav-drop">
+  <div class="nav-body">
+      <a href="//localhost:1313/" class="nav_item">Home</a>
+      <a href="//localhost:1313/publications" class="nav_item">Publications</a>
+      <a href="https://jpg.desmondlzy.me" class="nav_item">Photos</a>
+    <div class="nav-close"></div>
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href="//localhost:1313/" class="nav-brand">Desmond/Zhenyuan Liu</a>
+    <ul class="nav-labels">
+      <li>
+        <a href="//localhost:1313/" class="nav_item">Home</a>
+      </li>
+      <li>
+        <a href="//localhost:1313/publications" class="nav_item">Publications</a>
+      </li>
+      <li>
+        <a href="https://jpg.desmondlzy.me" class="nav_item">Photos</a>
+      </li>
+    </ul>
+    <p class="nav-byline pale"></p>
+    
+      
+    </div>
+  </nav>
+</header>
+
+
+      
+  <article class="post">
+    <div>
+      <h1 class="post_title">Workflow: Why Vim, Why Not</h1>
+      <p class="pale">November 7, 2024</p>
+      <aside>
+        
+      </aside>
+      <div class="post_body">
+        <div class="post_inner">
+          <p>So I&rsquo;m thinking of summarizing the research coding workflow I use now into a couple of blog posts here.
+Hopefully by having a moment of reflection and writing, I can get a better understanding of how I do things and perhaps even give people some cool ideas.</p>
+<p>So the very first one in the sequel is gonna be about editors.
+This topic apparently sometimes can get really controversial, so I&rsquo;ll be just focusing on my personal experience and feelings of
+how me using my personal favorite coding tools changes my coding mindsets, and alleviates my pain from the repetitive coding tasks.</p>
+<p>After all, I don&rsquo;t believe anyone would actually miss a project deadline because of not using editor X.</p>
+<h2 id="a-bit-of-prologue">A bit of prologue</h2>
+<p>Before anything else, it&rsquo;s worth mentioning that when I writes &ldquo;vim&rdquo;, unless explicitly specified, I&rsquo;m likely referring to the keybindings instead of the text editor.
+Vim, as a terminal-based editor, might not be for everyone, and I personally don&rsquo;t use it unless necessary for certain tasks.
+On the contrary, vim keybinding is more of a universal concept &ndash; it exists in many other editors/IDEs such as neovim, emacs, vscode, and intellij, either natively or as a plugin.
+You can even find vim keybindings inspired <a href="https://github.com/philc/vimium">browser extension</a>.
+The keybinding is what makes vim the editor stand out, and it&rsquo;s really the keybinding that shapes my coding habits and mindsets these days.
+Therefore I will make the vim keybinding the primary of the discussion here.</p>
+<p>Traveling back in time a bit, I try to recall how I started with vim.
+Unfortunately, the exact time and reason are a kind of blur &ndash; just remember it was somewhere during the first or second year in uni.
+What I do remember is, it wasn&rsquo;t the most pleasant experience in the very beginning (looking at you &ndash; HJKL for cursor movement).
+But after the &ldquo;survival period&rdquo;, it gets more and more enjoyable as the proficiency and knowledge increment.
+It just feels good when I no longer need to have my hands dance back-and-forth between my keyboard and mouse.
+Even until today, I still think it&rsquo;s one of the things that has steep learning curve but really pays off in the long-run.</p>
+<h2 id="so-why-vim">So, why vim?</h2>
+<p>One point about editing and has been said many and many times is that we need right tools tailed to the tasks.
+Code editing is no different.
+There are so many editing operations you would do <em>only</em> when coding,
+such as &ldquo;remove the content between a pair of double quotes&rdquo;,
+&ldquo;adding/removing &lsquo;#&rsquo; to the beginning of N lines&rdquo;, or
+&ldquo;adding import statements in the beginning of the file and jump back&rdquo;.</p>
+<p>When these movements are extraordinarily frequent, it naturally makes sense to have a keybinding geared towards these movements to improve the overall efficiency.
+It&rsquo;s a good point, but the thing is vim isn&rsquo;t the only keybinding that does that.
+All the keybindings out there are probably designed with this idea in mind, from popular ones like vscode and emacs to niche ones jammed together by some geeky programmers for themselves over a boring weekend.</p>
+<p>Lots of articles talking about the upsides of vim sound like they assume the alternatives are something like MS Notepad.
+It might be a good pitch to someone just learn programming, or to someone who hasn&rsquo;t thought about this and just clicking around their code to make edits.
+But to a person who has some experience and decently exposed to some shortcuts in their code editors,
+this is gonna be a harder sell.</p>
+<h2 id="so-again-why-vim">So, again, why vim?</h2>
+<p>Overall, it&rsquo;s the <em>composability</em> of the vim keybinding.
+Vim chooses a small set of atomic operations triggered by single key strokes,
+such as &ldquo;d&rdquo; for delete, &ldquo;j&rdquo; for cursor go to next line, &ldquo;G&rdquo; for cursor to bottom of the file and &ldquo;p&rdquo; for paste.
+Make sense. Efficient.
+But what truly makes a difference is that these atomics can be put together for something bigger,
+such as &ldquo;dj&rdquo; for <del>some great music</del> &ldquo;delete this and next line&rdquo;, &ldquo;dG&rdquo; for delete from this line to bottom of the file.
+Then throwing in some numbers to represent repetition such as &ldquo;d2j&rdquo; for &ldquo;delete this and 2 next lines&rdquo;.
+I feel it intuitive, and hopefully you find it the same way.</p>
+<p>It&rsquo;s really a smart design to give users these atomics as lego bricks, and have them combine them as they like.
+This leads to &ldquo;1+1&gt;2&rdquo; and it reduces memorization cost drastically.
+Makes learning and using vim can actually be rewarding with like playing a puzzle game.</p>
+<p>With minimum memorization of the keybinding, I can already achieve a lot that&rsquo;s either impossible, or would have taken way greater efforts if using another editor.
+Many say the keymap of different modes of vim is daunting.
+I agree, but I never even try to remember all of them (even after using it for this many years).
+I&rsquo;d rather take small steps learn the atomics only when I need so I don&rsquo;t get overwhelmed.
+The design of vim also makes incremental learning so much fun because of the combinations I can make with the new atomic and the ones I already know.</p>
+<p>When it gets to the point where I can comfortably keep my hand on the keyboard, and eliminating the need of lifting my hand for the mouse, doing some panning, scrolling and pinpointing,
+I realize how big a leap I made.
+What&rsquo;s better is, at that stage, I didn&rsquo;t even memorize all the single-keystroke atomics.
+And the &ldquo;lego fun&rdquo; even continues with more advanced concepts such as text object, and some good plugins, such as <code>vim-commentary</code> and <code>vim-surround</code>.
+When I throw in &lsquo;ciw&rsquo; to remove a word with my cursor anywhere on the word,
+<em>&ldquo;oh boy I can do this all day (in cowboy accent)&rdquo;</em>.</p>
+<h2 id="vim--vscode">Vim &amp; VSCode</h2>
+<p>Nowadays, I rarely use vim the editor. A few scenarios include doing quick edits (on <code>.bashrc</code> or alike) on a server or sometimes writing git commit messages.
+Though, the vim keybinding is still an irreplaceable part of workflow.
+I have tried coding without vim keybinding. I was playing around Swift and SwiftUI for some Mac app.
+But it just feels back to the stone age when I lose my magic cursor movement dance with vim.
+(I&rsquo;m aware of the existence of the vim mode on XCode but it still lacks many functionalities seemingly)</p>
+<p>The editor/IDE I use mostly is VSCode, which has a great Vim emulation extension.
+VSCode does me good mostly because of the python plugin, decent remote SSH support and the great extension ecosystem that makes most of the things work with minimum efforts.</p>
+<p>I think that&rsquo;s it for today. Hope you enjoy your time reading this.</p>
+
+        </div>
+      </div>
+    </div>
+  </article>
+
+    </main>
+    <footer class="footer pale header-font">
+  <p class="attribution upcase">Desmond/Zhenyuan Liu, 2025</p>
+  <p class="attribution upcase">Designed By <a href="https://desmondlzy.me">Desmond</a></p>
+</footer>
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

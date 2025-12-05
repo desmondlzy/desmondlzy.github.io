@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2025-11-05T22:56:00+01:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2025-11-05T22:56:00+01:00</lastmod>
+  </url><url>
+    <loc>/publications/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publications/higs/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/research-toolbox/</loc>
+    <lastmod>2025-03-09T14:00:24+01:00</lastmod>
+  </url><url>
+    <loc>/blog/why-vim/</loc>
+    <lastmod>2024-11-07T22:56:00+02:00</lastmod>
+  </url><url>
+    <loc>/blog/slurmmy-intro/</loc>
+    <lastmod>2020-07-11T21:00:24+08:00</lastmod>
+  </url><url>
+    <loc>/publications/bigs/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/publications/embroidery/</loc>
+  </url><url>
+    <loc>/tags/</loc>
+  </url><url>
+    <loc>/publications/rigidity/</loc>
+  </url>
+</urlset>
