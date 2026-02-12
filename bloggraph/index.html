@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.152.2">
+  <title>Bloggraph Example Website
+
+  </title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="Bloggraph Example Website">
+<meta property="og:locale" content='en)_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="Bloggraph Example Website">
+<meta property="og:description" content="
+      Welcome to the example website of Bloggraph.
+    
+
+
+Welcome to">
+<meta property="og:url" content="/bloggraph/">
+<meta property="og:image" content="images/%!s(&lt;nil&gt;)">
+<link rel="canonical" href="/bloggraph/"><link rel="apple-touch-icon" sizes="180x180" href='images/icons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='images/icons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='images/icons/favicon-16x16.png'>
+<link rel="manifest" href='/bloggraph/images/icons/site.webmanifest'>
+
+
+
+
+<link rel="stylesheet" href="/bloggraph/css/styles.82307e6debdbbfb82a851bf43c13f1af68affc90eeb4aa1af34cc3b82e9373d2f396b914b3c0f29f0439902160cc6b9157075e11c91d3a6d7d62800fe3b5e0a4.css" integrity="sha512-gjB&#43;bevbv7gqhRv0PBPxr2iv/JDutKoa80zDuC6Tc9LzlrkUs8DynwQ5kCFgzGuRVwdeEckdOm19YoAP47XgpA==" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="alternate" type="application/rss+xml" href="/bloggraph/index.xml" title="Bloggraph Example Website" />
+</head>
+
+  <body>
+    <main>
+      <div class="nav-drop">
+  <div class="nav-body">
+      <a href="/bloggraph/" class="nav_item">Home</a>
+      <a href="/bloggraph/publications" class="nav_item">Publications</a>
+    <div class="nav-close"></div>
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href="/bloggraph/" class="nav-brand">Bloggraph Example Website</a>
+    <ul class="nav-labels">
+      <li>
+        <a href="/bloggraph/" class="nav_item">Home</a>
+      </li>
+      <li>
+        <a href="/bloggraph/publications" class="nav_item">Publications</a>
+      </li>
+    </ul>
+    <p class="nav-byline pale"></p>
+    
+      
+    </div>
+  </nav>
+</header>
+
+
+      
+  <article class="home">
+    <div>
+      <div class="home_inner count-figure count-h2h3">
+        <figure><img src="/bloggraph/teaser.jpg"
+    alt="Welcome to the example website of Bloggraph."><figcaption>
+      <p>Welcome to the example website of Bloggraph.</p>
+    </figcaption>
+</figure>
+
+<p>Welcome to the example website of the <a href="https://gohugo.io">Hugo</a> theme Bloggraph.
+The design of Bloggraph takes lots of inspiration from the style of ACM SIGGRAPH technical paper,
+with a special focus on showcasing research projects and profiles.</p>
+<p>This website is a minimal example, as well as a tutorial that could get you a quick start.</p>
+<p class="profile-social-box"><a class="profile-social" style="text-decoration: none;" href=https://github.com/desmondlzy/bloggraph><i class="fab fa-github"></i> github/desmondlzy/bloggraph</a><a class="profile-social" style="text-decoration: none;" href=mailto:example@email.address><i class="fas fa-envelope"></i> example@email.address</a></p>
+
+<h2 id="start-with-the-source-code-of-this-website">Start with the Source Code of This Website</h2>
+<p>The best way to get started is get a copy of the source code of this example website and change it as per your need.
+Simply clone the <a href="https://github.com/desmondlzy/bloggraph-example">github repo</a> with <code>--recursive</code>.</p>
+<pre tabindex="0"><code>git clone --recursive https://github.com/desmondlzy/bloggraph-example yourwebsite
+</code></pre><p>Then try <code>cd yourwebsite; hugo serve</code> you shall see the example website running at <code>localhost:1313/</code>. Make sure you&rsquo;ve <a href="https://gohugo.io/getting-started/installing/">installed Hugo extended version</a> (v0.90.0+) before this.</p>
+<h3 id="recommended-directory-layout">Recommended Directory Layout</h3>
+<p>If you&rsquo;re working with the example website, you&rsquo;re already set. If you are migrating an existing Hugo project, it&rsquo;s highly recommended to organize files as the following:</p>
+<pre tabindex="0"><code>content/
+├─ publications/
+│  ├─ _index.md (if you want to customize the publication list page)
+│  ├─ pequalsnp.md
+│  ├─ other-projects.md
+├─ _index.md (home page)
+static/
+├─ sass/
+│  ├─ _custom.sass (recommended place to override the default sass)
+themes/
+├─ bloggraph/
+config.toml
+</code></pre><h2 id="site-configuration">Site Configuration</h2>
+<p>Change the corresponding fields in your <a href="https://gohugo.io/getting-started/configuration/#configuration-file">site configuration</a> at <code>config.toml</code> to customize the following.</p>
+<h3 id="site-owner-name">Site Owner Name</h3>
+<p>Change <code>name</code> in <code>[params.author]</code>. It will be used to highlight your name in the author list of the publication.</p>
+<h3 id="social-media-links">Social Media Links</h3>
+<p>Change the fields in <code>[params.author]</code>. This determines what <code>{{&lt; icon-link &gt;}}</code> shows.</p>
+<p class="profile-social-box"><a class="profile-social" style="text-decoration: none;" href=https://github.com/desmondlzy/bloggraph><i class="fab fa-github"></i> github/desmondlzy/bloggraph</a><a class="profile-social" style="text-decoration: none;" href=mailto:example@email.address><i class="fas fa-envelope"></i> example@email.address</a></p>
+
+<p>Currently, only <code>linkedin</code>, <code>github</code> and <code>email</code> are supported.
+Want more? Tweak <code>themes/bloggraph/shortcodes/icon-link.html</code> and file a <a href="https://github.com/desmondlzy/bloggraph/pulls">pull request</a> to let everyone benefit from it!</p>
+<h3 id="tabs-in-the-navigation-bar">Tabs in the Navigation Bar</h3>
+<p>Change <code>[menus.main]</code>. See <a href="https://gohugo.io/content-management/menus">official documentation on menus</a> for more info.</p>
+<h2 id="home-page">Home Page</h2>
+<p>Home page (the page shown at the root of your website) is generated from the <code>content/_index.md</code>. As usual, use <a href="https://www.markdownguide.org/">markdown syntax</a> to write things on your home page.</p>
+<h2 id="publication">Publication</h2>
+<p>Some tools that may come in handy when you write the publication page.</p>
+<h3 id="add-a-publicationproject-page">Add a Publication/Project Page</h3>
+<p>Set the front matter <code>type</code> to be <code>publications</code>.
+The following command which creates all the boilerplate and front matters will take care of everything.</p>
+<pre tabindex="0"><code>hugo new publications/p-equals-np/index.md
+</code></pre><p>The authors and affiliations information will be parsed from the frontmatters and displayed on the page automatically.</p>
+<h3 id="show-the-overview-of-a-publication-from-markdown">Show the Overview of a Publication from Markdown</h3>
+<p>A <a href="https://gohugo.io/content-management/shortcodes">shortcode</a> is bundled so that you can refer a publication page in the website from any page by this shortcode</p>
+<pre tabindex="0"><code>{{&lt; publication/single title=&#34;Realtime Rendering on a Single Thread&#34; &gt;}}
+</code></pre>
+
+
+
+
+
+
+	
+
+
+
+
+<div class="pub-item">
+	 
+			<figure class="pub-thumbnail">
+				<a href="/bloggraph/publications/realtime-rendering-on-a-single-thread/">
+					<img src="/bloggraph/publications/realtime-rendering-on-a-single-thread/eyeroll-wall.jpg">
+				</a>
+			</figure>
+	
+	<div class="pub-info">
+	<div class="pub-title">Realtime Rendering on a Single Thread</div>
+	<div class="pub-author">
+		
+		
+		
+		
+		<b>Bar Foo</b>,
+		
+		
+		
+		Who am I
+
+		
+	</div>
+	<div class="pub-status">
+		<i>
+		
+			<b>International Journal of Graphics 2021</b>
+			 (conditionally rejected)
+		
+		</i>
+	</div>
+	<div class="pub-links">
+		
+			<a href=/bloggraph/publications/realtime-rendering-on-a-single-thread/>Project page</a>
+		
+		 | <a href=/bloggraph/publications/realtime-rendering-on-a-single-thread/url-to-your-paper.pdf>Paper</a>
+		
+	</div>
+	<div class="pub-description pale">
+		Real-time rendering on a single CPU thread is no longer a daydream!
+	</div>
+	</div>
+</div>
+
+<h3 id="publication-list">Publication List</h3>
+<p>A list of publication is automatically generated at <code>baseURL/publications</code>. You can add customized content before the list at <code>content/publications/_index.md</code>.</p>
+<h2 id="extras">Extras</h2>
+<p>I like snacks&hellip;</p>
+<h3 id="icon-link">Icon Link</h3>
+<p>Display the your social media links as per the site configuration.</p>
+<pre tabindex="0"><code>{{&lt; icon-link &gt;}}
+</code></pre><p class="profile-social-box"><a class="profile-social" style="text-decoration: none;" href=https://github.com/desmondlzy/bloggraph><i class="fab fa-github"></i> github/desmondlzy/bloggraph</a><a class="profile-social" style="text-decoration: none;" href=mailto:example@email.address><i class="fas fa-envelope"></i> example@email.address</a></p>
+
+<h3 id="number-the-headingsfigures">Number the Headings/Figures</h3>
+<p>Use <strong>shortcode</strong> in the markdown file to number all the h2/h3 headings in the page.</p>
+<pre tabindex="0"><code>{{&lt; numbering &gt;}}
+</code></pre><figure><img src="/bloggraph/eyerolls.jpg"
+    alt="Include a second figure in the post and the figure counter goes up automatically!"><figcaption>
+      <p>Include a second figure in the post and the figure counter goes up automatically!</p>
+    </figcaption>
+</figure>
+
+<p>Use <strong>HTML class</strong> <code>count-figure</code> and <code>count-h2h3</code> if you work with HTML. All the descendants of the container of the corresponding class will have the numbering enabled.</p>
+
+      </div>
+    </div>
+  </article>
+
+    </main>
+    <footer class="footer pale header-font">
+  <p class="attribution upcase">Bloggraph Example Website, 2026</p>
+  <p class="attribution upcase">Designed By <a href="https://desmondlzy.me">Desmond</a></p>
+</footer>
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

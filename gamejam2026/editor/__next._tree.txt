@@ -1,0 +1,4 @@
+:HL["/gamejam2026/_next/static/chunks/b242c2326f71729a.css","style"]
+:HL["/gamejam2026/_next/static/media/SerenityOS_Emoji-s.p.4898fbe4.ttf","font",{"crossOrigin":"","type":"font/ttf"}]
+:HL["/gamejam2026/_next/static/media/de161955856a921d-s.p.25da2b95.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"GjM-5t5TT-gIkdB_mReUq","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"editor","paramType":null,"paramKey":"editor","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

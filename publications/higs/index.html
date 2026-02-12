@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>HiGS: Inverse Radiative Transport for Infrared Scenes with Gaussian Primitives | Desmond/Zhenyuan Liu
+
+  </title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-LY93LCCXF8"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-LY93LCCXF8');
+        }
+      </script>
+
+
+<meta name="keywords" content="Desmond/Zhenyuan Liu">
+<meta property="og:locale" content='en)_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="HiGS: Inverse Radiative Transport for Infrared Scenes with Gaussian Primitives">
+<meta property="og:description" content="☀️ Warm up Bunny with hemicubes and Gaussian splats from thermal images">
+<meta property="og:url" content="/publications/higs/">
+<meta property="og:image" content="images/%!s(&lt;nil&gt;)">
+<link rel="canonical" href="/publications/higs/"><link rel="apple-touch-icon" sizes="180x180" href='images/icons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='images/icons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='images/icons/favicon-16x16.png'>
+<link rel="manifest" href='/images/icons/site.webmanifest'>
+
+
+
+
+<link rel="stylesheet" href="/css/styles.9a2c562d46cf400a7ab242e4f597ff5c8dcf1031318721a08b05e9a1b23f28f7bd9208d5eb22f9b79586e97397e2027fd46efd122c4b745866426762382615e6.css" integrity="sha512-mixWLUbPQAp6skLk9Zf/XI3PEDExhyGgiwXpobI/KPe9kgjV6yL5t5WG6XOX4gJ/1G79EixLdFhmQmdiOCYV5g==" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="alternate" type="application/rss+xml" href="/publications/higs/index.xml" title="Desmond/Zhenyuan Liu" />
+</head>
+
+  <body>
+    <main>
+      <div class="nav-drop">
+  <div class="nav-body">
+      <a href="/" class="nav_item">Home</a>
+      <a href="/publications" class="nav_item">Publications</a>
+      <a href="https://jpg.desmondlzy.me" class="nav_item">Photos</a>
+    <div class="nav-close"></div>
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href="/" class="nav-brand">Desmond/Zhenyuan Liu</a>
+    <ul class="nav-labels">
+      <li>
+        <a href="/" class="nav_item">Home</a>
+      </li>
+      <li>
+        <a href="/publications" class="nav_item">Publications</a>
+      </li>
+      <li>
+        <a href="https://jpg.desmondlzy.me" class="nav_item">Photos</a>
+      </li>
+    </ul>
+    <p class="nav-byline pale"></p>
+    
+      
+    </div>
+  </nav>
+</header>
+
+
+      
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <div class="publication-info">
+    <h1>HiGS: Inverse Radiative Transport for Infrared Scenes with Gaussian Primitives</h1>
+
+    
+    <h5 style="margin-top: 0;"><a href=https://asia.siggraph.org/2025/></a>SIGGRAPH Asia 2025 Conference Papers</a></h5>
+    
+
+    <div class="authors header-font">
+      
+        
+        
+        
+        
+        
+        
+        
+
+        <div class="author-info">
+
+          <a class="author-name" href=" https://desmondlzy.me " >Liu Zhenyuan</a>
+
+          <div class="author-affliation">
+          
+            
+            
+
+            <a class="author-affiliation-name" href="https://ethz.ch/en">ETH Zurich, Switzerland</a>
+          
+          </div>
+
+        </div>
+      
+        
+        
+        
+        
+        
+        
+        
+
+        <div class="author-info">
+
+          <a class="author-name" href="" >Bharath Seshadri</a>
+
+          <div class="author-affliation">
+          
+            
+            
+
+            <a class="author-affiliation-name" href="https://ethz.ch/en">ETH Zurich, Switzerland</a>
+          
+          </div>
+
+        </div>
+      
+        
+        
+        
+        
+        
+        
+        
+
+        <div class="author-info">
+
+          <a class="author-name" href=" https://grgkopanas.github.io/ " >George Kopanas</a>
+
+          <div class="author-affliation">
+          
+            
+            
+
+            <a class="author-affiliation-name" href="https://runwayml.com/">Runway ML, United Kingdom</a>
+          
+          </div>
+
+        </div>
+      
+        
+        
+        
+        
+        
+        
+        
+
+        <div class="author-info">
+
+          <a class="author-name" href=" https://berndbickel.com/about-me " >Bernd Bickel</a>
+
+          <div class="author-affliation">
+          
+            
+            
+
+            <a class="author-affiliation-name" href="https://ethz.ch/en">ETH Zurich, Switzerland</a>
+          
+          </div>
+
+        </div>
+      
+      <div class="author-notes pale">
+      
+      </div>
+    </div>
+
+    
+    <p style="margin-top: 1em;"><em>☀️ Warm up Bunny with hemicubes and Gaussian splats from thermal images</em></p>
+    
+  </div >
+
+  
+
+
+
+
+ 
+
+<style>
+figure:first-of-type {
+  counter-reset: figcounter;
+}
+
+figure figcaption::before {
+  content: "Fig. " counter(figcounter) ".\00a0";
+  counter-increment: figcounter;
+}
+</style>
+
+
+
+
+
+<style>
+  video {
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.3),0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+</style>
+<figure>
+<video autoplay="" loop="" playsinline="" muted="" ><source src="images/website-video.mp4" type="video/mp4" data-src="images/website-video.mp4"></video>
+  <figcaption>
+  HiGS takes input as thermal images of the same scene at different temperature conditions, 
+  infers thermal transport properties,
+  and separate the reflection from the total radiation observed from the camera.
+  It further enables re-heating: 
+  re-position the radiator and change its temperature and emissivity, and predict the reflections under
+  the new heating condition.
+  </figcaption>
+</figure>
+<h2 id="overview-hemicube--radiosity--radiance-cache">Overview: hemicube + radiosity + radiance cache</h2>
+<figure><img src="/publications/higs/images/overview.png"
+    alt="HiGS first reconstructs a set of 2D Gaussian primitives that represent the geometry of the scene. Then, we compute the incoming radiance at each Gaussian primitive by rasterizing other primitives using hemicubes, and represent the outgoing radiance using Spherical Gaussian (SG) basis. The outgoing radiance and thermal properties are supervised by the image loss between the reference images and renderings, and a radiosity loss that promotes the separation of reflections."><figcaption>
+      <p>HiGS first reconstructs a set of 2D Gaussian primitives that represent the geometry of the scene. Then, we compute the incoming radiance at each Gaussian primitive by rasterizing other primitives using hemicubes, and represent the outgoing radiance using Spherical Gaussian (SG) basis. The outgoing radiance and thermal properties are supervised by the image loss between the reference images and renderings, and a radiosity loss that promotes the separation of reflections.</p>
+    </figcaption>
+</figure>
+
+<h2 id="results">Results</h2>
+<figure><img src="/publications/higs/images/training-views.png"
+    alt="We validate our method on synthetic dataset. We show reference/rendered total radiation and reflection."><figcaption>
+      <p>We validate our method on synthetic dataset. We show reference/rendered total radiation and reflection.</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/publications/higs/images/move-teapot.png"
+    alt="Our method is also tested on real capture data. We move the heated teapot and predict its reflection in the new positions."><figcaption>
+      <p>Our method is also tested on real capture data. We move the heated teapot and predict its reflection in the new positions.</p>
+    </figcaption>
+</figure>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+<p>Bharath Seshadri’s position is funded by the Albert Lück Stiftung
+via the ETH Zürich Foundation for the project “Extended Reality for
+Inspection, Assembly, Operations for net-zero carbon infrastructure”
+The authors thank the anonymous reviewers for their valuable feedback; Dominik Stoll for his help with the figures; Jeremy Chew for
+many insightful discussions; Stanford University Computer Graphics Laboratory for the Stanford Bunny model.</p>
+<h2 id="citation">Citation</h2>
+<pre tabindex="0"><code>@inproceedings{zhenyuan2025higs,
+  title = {{Inverse Radiative Transport for Infrared Scenes with Gaussian Primitives}},
+  booktitle = {ACM} {SIGGRAPH Asia} 2025 {Conference} {Proceedings},
+  author = {Zhenyuan, Liu and Seshadri, Bharath and Kopanas, George and Bickel, Bernd},
+  year = {2025},
+  month = dec,
+  doi = {10.1145/3757377.3763938},
+}
+</code></pre>
+
+  
+
+  
+    </main>
+    <footer class="footer pale header-font">
+  <p class="attribution upcase">Desmond/Zhenyuan Liu, 2026</p>
+  <p class="attribution upcase">Designed By <a href="https://desmondlzy.me">Desmond</a></p>
+</footer>
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>
