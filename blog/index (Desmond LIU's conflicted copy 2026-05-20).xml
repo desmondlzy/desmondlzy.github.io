@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desmond/Zhenyuan Liu</title>
+    <link>/blog/</link>
+    <description>Recent content on Desmond/Zhenyuan Liu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>zhenyliu [at] ethz.ch (Zhenyuan Liu)</managingEditor>
+    <webMaster>zhenyliu [at] ethz.ch (Zhenyuan Liu)</webMaster>
+    <lastBuildDate>Sun, 09 Mar 2025 14:00:24 +0100</lastBuildDate>
+    <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Toolbox</title>
+      <link>/blog/research-toolbox/</link>
+      <pubDate>Sun, 09 Mar 2025 14:00:24 +0100</pubDate><author>zhenyliu [at] ethz.ch (Zhenyuan Liu)</author>
+      <guid>/blog/research-toolbox/</guid>
+      <description>&lt;p&gt;I will use this article as my weaponry for all the goodies I come across during my academic journey.&#xA;It&amp;rsquo;s going to be a curated list of software, tutorials, advice and many other things that I find particularly useful and would like to share with everyone reading this.&lt;/p&gt;&#xA;&lt;p&gt;I know this is not going to be anywhere near exhaustive, but I&amp;rsquo;ll try my best to keep it up-to-date.&lt;/p&gt;&#xA;&lt;h3 id=&#34;technical-writing&#34;&gt;Technical Writing&lt;/h3&gt;&#xA;&lt;p&gt;Some links I found that worth going over from time to time (I tend to forget some important tips).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Workflow: Why Vim, Why Not</title>
+      <link>/blog/why-vim/</link>
+      <pubDate>Thu, 07 Nov 2024 22:56:00 +0200</pubDate><author>zhenyliu [at] ethz.ch (Zhenyuan Liu)</author>
+      <guid>/blog/why-vim/</guid>
+      <description>&lt;p&gt;So I&amp;rsquo;m thinking of summarizing the research coding workflow I use now into a couple of blog posts here.&#xA;Hopefully by having a moment of reflection and writing, I can get a better understanding of how I do things and perhaps even give people some cool ideas.&lt;/p&gt;&#xA;&lt;p&gt;So the very first one in the sequel is gonna be about editors.&#xA;This topic apparently sometimes can get really controversial, so I&amp;rsquo;ll be just focusing on my personal experience and feelings of&#xA;how me using my personal favorite coding tools changes my coding mindsets, and alleviates my pain from the repetitive coding tasks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>7x24 Automatically Submit Thousands of Jobs to CSE GPGPU Cluster</title>
+      <link>/blog/slurmmy-intro/</link>
+      <pubDate>Sat, 11 Jul 2020 21:00:24 +0800</pubDate><author>zhenyliu [at] ethz.ch (Zhenyuan Liu)</author>
+      <guid>/blog/slurmmy-intro/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Edit (Nov 7 2024):&lt;/strong&gt; This post was written back in 2020 at CUHK. Things might have changed a lot and the article might be very obsolete now.&lt;/p&gt;&#xA;&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;&#xA;&lt;p&gt;Recently I&amp;rsquo;ve been working on a machine learning project, so it comes inevitable to do some time-eating finetuning tasks. Obviously, it would be infeasible to tune thousands of combinations of hyperparameters all on my laptop.&#xA;As a result, I turn to CSE&amp;rsquo;s GPGPU computing cluster, hoping their TITANs can help. The computational power is great, but meanwhile, it&amp;rsquo;s also quite underwhelming as they put a very annoying limit for the users —&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

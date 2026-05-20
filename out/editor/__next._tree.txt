@@ -1,0 +1,3 @@
+:HL["/gamejam2026/_next/static/chunks/39ff08ad787eddfd.css","style"]
+:HL["/gamejam2026/_next/static/media/de161955856a921d-s.p.25da2b95.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"nmG5L5BVppALmwcTDTMiX","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"editor","paramType":null,"paramKey":"editor","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
