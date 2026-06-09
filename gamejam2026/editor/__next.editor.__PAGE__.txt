@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[96619,["/gamejam2026/_next/static/chunks/3e37e293c2d912f5.js","/gamejam2026/_next/static/chunks/89949b3f65f95fc1.js"],"ClientPageRoot"]
+3:I[40104,["/gamejam2026/_next/static/chunks/4cbbb1aa858817e0.js","/gamejam2026/_next/static/chunks/3e37e293c2d912f5.js","/gamejam2026/_next/static/chunks/5650820c607bd764.js","/gamejam2026/_next/static/chunks/8c9131f583b17e63.js"],"default"]
+6:I[62505,["/gamejam2026/_next/static/chunks/3e37e293c2d912f5.js","/gamejam2026/_next/static/chunks/89949b3f65f95fc1.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"buildId":"GjM-5t5TT-gIkdB_mReUq","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/gamejam2026/_next/static/chunks/3e37e293c2d912f5.js","async":true}],["$","script","script-1",{"src":"/gamejam2026/_next/static/chunks/5650820c607bd764.js","async":true}],["$","script","script-2",{"src":"/gamejam2026/_next/static/chunks/8c9131f583b17e63.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+4:{}
+5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null

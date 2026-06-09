@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bloggraph Example Website</title>
+    <link>/bloggraph/publications/</link>
+    <description>Recent content on Bloggraph Example Website</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>example@email.address (Bar Foo)</managingEditor>
+    <webMaster>example@email.address (Bar Foo)</webMaster>
+    <lastBuildDate>Thu, 20 Jan 2022 20:55:17 +0100</lastBuildDate>
+    <atom:link href="/bloggraph/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Towards Lossless Conversion From Soup to Voxels</title>
+      <link>/bloggraph/publications/lossless-conversion-from-soup-to-voxels/</link>
+      <pubDate>Thu, 20 Jan 2022 20:55:17 +0100</pubDate><author>example@email.address (Bar Foo)</author>
+      <guid>/bloggraph/publications/lossless-conversion-from-soup-to-voxels/</guid>
+      <description>Yet another significant step from soup to voxels!</description>
+    </item>
+    <item>
+      <title>Realtime Rendering on a Single Thread</title>
+      <link>/bloggraph/publications/realtime-rendering-on-a-single-thread/</link>
+      <pubDate>Sat, 20 Feb 2021 20:55:17 +0100</pubDate><author>example@email.address (Bar Foo)</author>
+      <guid>/bloggraph/publications/realtime-rendering-on-a-single-thread/</guid>
+      <description>Real-time rendering on a single CPU thread is no longer a daydream!</description>
+    </item>
+  </channel>
+</rss>
