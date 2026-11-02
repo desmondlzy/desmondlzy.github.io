@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Bloggraph Example Website</title>
+    <link>/bloggraph/categories/</link>
+    <description>Recent content in Categories on Bloggraph Example Website</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>example@email.address (Bar Foo)</managingEditor>
+    <webMaster>example@email.address (Bar Foo)</webMaster>
+    <atom:link href="/bloggraph/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
